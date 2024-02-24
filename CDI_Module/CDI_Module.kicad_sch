@@ -1,0 +1,23 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a4713233-3633-4d06-9186-8236551fb01a)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "IGN_Trig_IN_1" (shape input) (at 43.18 36.83 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 0e1b783e-f3e0-40f0-a9d5-6aa030b5b42e)
+  )
+  (hierarchical_label "IGN_Trig_IN_2" (shape input) (at 43.18 41.91 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid c51db1af-a581-48ef-98ca-8d05acda3526)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

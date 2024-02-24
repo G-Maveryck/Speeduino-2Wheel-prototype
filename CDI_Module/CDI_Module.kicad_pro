@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Core4GPZ.kicad_pro",
+    "filename": "CDI_Module.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -312,14 +312,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -332,16 +324,8 @@
   },
   "sheets": [
     [
-      "ac28f42d-34b3-4fcc-84dd-ab6106f99610",
+      "a4713233-3633-4d06-9186-8236551fb01a",
       ""
-    ],
-    [
-      "47dee9fe-f537-47a7-b917-fe922e75e357",
-      "Safety"
-    ],
-    [
-      "d5427090-fd08-4b35-ae6e-bc2a7b0d4087",
-      "Ignition_Driver"
     ]
   ],
   "text_variables": {}
