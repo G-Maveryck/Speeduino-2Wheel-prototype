@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "21f35ab0-a898-4f9b-a490-8a5e50a8e651")
+	(paper "A4")
+	(lib_symbols)
+	(text "Boost circuit"
+		(exclude_from_sim no)
+		(at 29.464 22.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c928887-4d73-49ae-aef0-a8826cb16caa")
+	)
+)
