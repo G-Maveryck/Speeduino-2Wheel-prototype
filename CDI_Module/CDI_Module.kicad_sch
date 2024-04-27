@@ -1203,6 +1203,12 @@
 		)
 	)
 	(junction
+		(at 176.53 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "217d88cf-10d0-4647-8987-0263b8917c82")
+	)
+	(junction
 		(at 194.31 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1225,12 +1231,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b01d67c-5cbc-4e2c-9c17-7e28b5b70676")
-	)
-	(junction
-		(at 186.69 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "934eb9a9-a895-4f1c-98dd-dd46e2e46610")
 	)
 	(junction
 		(at 194.31 74.93)
@@ -1260,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 95.25) (xy 186.69 96.52)
+			(xy 176.53 95.25) (xy 176.53 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1317,16 +1317,6 @@
 			(type default)
 		)
 		(uuid "26acc6f6-17b6-49f9-8c81-8c771fcfb262")
-	)
-	(wire
-		(pts
-			(xy 184.15 85.09) (xy 186.69 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27f22037-2687-4821-8ca9-ee0c57bf3b88")
 	)
 	(wire
 		(pts
@@ -1400,6 +1390,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 85.09) (xy 190.5 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb3f67d-fc81-4e96-9fef-1d2db75a9dc3")
+	)
+	(wire
+		(pts
 			(xy 96.52 96.52) (xy 110.49 96.52)
 		)
 		(stroke
@@ -1437,6 +1437,16 @@
 			(type default)
 		)
 		(uuid "9e7297e6-abc4-4796-a3ce-db714559822a")
+	)
+	(wire
+		(pts
+			(xy 176.53 85.09) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60a5e8e-0876-464e-9bd1-a93e61f7b6eb")
 	)
 	(wire
 		(pts
@@ -1490,23 +1500,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 96.52) (xy 194.31 96.52)
+			(xy 176.53 96.52) (xy 194.31 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "de61e66d-2bb2-4f03-a10e-fa5494226ed7")
-	)
-	(wire
-		(pts
-			(xy 186.69 85.09) (xy 190.5 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df66cf01-11e1-4168-9698-5142b12e4acb")
 	)
 	(wire
 		(pts
@@ -1560,7 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 85.09) (xy 186.69 87.63)
+			(xy 176.53 85.09) (xy 176.53 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1926,7 +1926,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 180.34 85.09 90)
+		(at 184.15 85.09 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -1935,7 +1935,7 @@
 		(fields_autoplaced yes)
 		(uuid "04375a16-1ea3-43cb-aeff-0c87bca81c92")
 		(property "Reference" "R7"
-			(at 180.34 78.74 90)
+			(at 184.15 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +1943,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 180.34 81.28 90)
+			(at 184.15 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1951,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 180.34 86.868 90)
+			(at 184.15 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +1960,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 85.09 0)
+			(at 184.15 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,7 +1969,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 180.34 85.09 0)
+			(at 184.15 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,7 +2196,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 186.69 91.44 180)
+		(at 176.53 91.44 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -2205,7 +2205,7 @@
 		(fields_autoplaced yes)
 		(uuid "52f59db2-1c38-418c-94cd-ff3d73ce6e60")
 		(property "Reference" "R8"
-			(at 189.23 90.1699 0)
+			(at 179.07 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +2214,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 189.23 92.7099 0)
+			(at 179.07 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +2223,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 188.468 91.44 90)
+			(at 178.308 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2232,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 91.44 0)
+			(at 176.53 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,7 +2241,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 186.69 91.44 0)
+			(at 176.53 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
