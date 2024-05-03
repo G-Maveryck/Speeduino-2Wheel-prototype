@@ -565,6 +565,10 @@
     [
       "daf77dd8-6c93-40bb-b740-2abe26fd61d2",
       "Power Supply"
+    ],
+    [
+      "eddb9d71-e77a-4517-903c-0f4defe5abdd",
+      "VR_Conditionner"
     ]
   ],
   "text_variables": {}
