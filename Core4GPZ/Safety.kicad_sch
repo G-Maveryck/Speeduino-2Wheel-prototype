@@ -411,12 +411,6 @@
 		)
 	)
 	(junction
-		(at 55.88 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b775e7b-1a6d-417c-9d6c-ee61648c9d3a")
-	)
-	(junction
 		(at 55.88 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -443,16 +437,6 @@
 			(type default)
 		)
 		(uuid "030b5b2a-45b2-40f0-94f6-be48c72618f9")
-	)
-	(wire
-		(pts
-			(xy 40.64 85.09) (xy 44.45 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a098247-f273-4b1d-ae73-e7b6b5ffd3cb")
 	)
 	(wire
 		(pts
@@ -513,16 +497,6 @@
 			(type default)
 		)
 		(uuid "3a6a8002-36e5-40b3-a81f-f0daa41f8a0b")
-	)
-	(wire
-		(pts
-			(xy 52.07 85.09) (xy 55.88 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3afc05d9-7838-4b9d-95ba-de8855b749dd")
 	)
 	(wire
 		(pts
@@ -593,16 +567,6 @@
 			(type default)
 		)
 		(uuid "e638c0c3-4f12-449c-9d6a-da270bdced6a")
-	)
-	(wire
-		(pts
-			(xy 55.88 85.09) (xy 55.88 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe26b020-5fbd-4218-8128-58324809167f")
 	)
 	(image
 		(at 213.36 88.9)
@@ -9834,28 +9798,6 @@
 			)
 		)
 	)
-	(global_label "SPR2_SWITCH"
-		(shape input)
-		(at 40.64 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f636fb8-80b2-4c56-8b6b-bfec3f5b957d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.8944 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPR1_SWITCH"
 		(shape input)
 		(at 40.64 74.93 180)
@@ -9950,7 +9892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.102 38.1 90)
 			(effects
 				(font
@@ -9994,188 +9936,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 48.26 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "497690eb-7380-4079-80cf-ccc3b678777f")
-		(property "Reference" "D5"
-			(at 48.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 48.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 48.26 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 48.26 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 48.26 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "36db088e-e6e2-4a60-8d7b-0bd1d3c12cc0")
-		)
-		(pin "1"
-			(uuid "183d6591-97d3-404f-a604-6ae33b0a6a45")
-		)
-		(instances
-			(project "Core4GPZ"
-				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 48.26 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51879c4f-beda-4510-82b6-68b96e71c1ee")
-		(property "Reference" "D4"
-			(at 48.26 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 48.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 48.26 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 48.26 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 48.26 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0b938e6a-87b4-49a8-a097-5b3823f90e59")
-		)
-		(pin "1"
-			(uuid "e87c7e72-23cd-4691-b117-7195f361eee4")
-		)
-		(instances
-			(project "Core4GPZ"
-				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
 		(at 48.26 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "51f1fa8f-9bf1-4daa-b36c-8948a9dfacc9")
 		(property "Reference" "D3"
-			(at 48.26 38.1 0)
+			(at 51.308 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10183,14 +9952,14 @@
 			)
 		)
 		(property "Value" "D"
-			(at 48.26 40.64 0)
+			(at 51.308 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 48.26 44.45 0)
 			(effects
 				(font
@@ -10252,16 +10021,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 48.26 74.93 0)
+		(at 48.26 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ed83968-60c7-4130-8972-d97f47cf793b")
-		(property "Reference" "D6"
-			(at 48.26 68.58 0)
+		(uuid "73a06ccd-cabf-45f5-a439-c2ab39aeb237")
+		(property "Reference" "D4"
+			(at 51.308 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10269,15 +10037,15 @@
 			)
 		)
 		(property "Value" "D"
-			(at 48.26 71.12 0)
+			(at 51.308 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 48.26 74.93 0)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 48.26 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10286,7 +10054,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 74.93 0)
+			(at 48.26 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10063,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 74.93 0)
+			(at 48.26 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10304,7 +10072,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 48.26 74.93 0)
+			(at 48.26 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10313,7 +10081,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 48.26 74.93 0)
+			(at 48.26 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10322,15 +10090,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "188d785b-b6df-41f3-be82-0889df2d3db8")
+			(uuid "149f49a4-3440-43fd-8880-12fa6419d112")
 		)
 		(pin "1"
-			(uuid "d7e73d8e-3567-40ee-9d35-c47278825427")
+			(uuid "9c314ec7-e02b-42c2-9f64-0cd8fff13d1f")
 		)
 		(instances
 			(project "Core4GPZ"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10338,16 +10106,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 48.26 85.09 0)
+		(at 48.26 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99eb2043-62e4-4c38-b6c6-266d6ca4fc62")
-		(property "Reference" "D7"
-			(at 48.26 78.74 0)
+		(uuid "d151fee1-9d4e-4848-ae94-c499de875d25")
+		(property "Reference" "D6"
+			(at 51.308 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10355,15 +10122,15 @@
 			)
 		)
 		(property "Value" "D"
-			(at 48.26 81.28 0)
+			(at 51.308 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 48.26 85.09 0)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 48.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10372,7 +10139,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 85.09 0)
+			(at 48.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10381,7 +10148,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 85.09 0)
+			(at 48.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10390,7 +10157,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 48.26 85.09 0)
+			(at 48.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10399,7 +10166,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 48.26 85.09 0)
+			(at 48.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10408,15 +10175,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "7fd27c11-b3c3-458a-a728-736d443c90aa")
+			(uuid "1199408c-e89b-43c6-8797-8c07d0a81224")
 		)
 		(pin "1"
-			(uuid "165ac35d-33ee-454d-826d-a7d0962afc97")
+			(uuid "99da5f3c-6493-4553-b05c-be9f36f9d237")
 		)
 		(instances
 			(project "Core4GPZ"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -10483,6 +10250,91 @@
 			(project "Core4GPZ"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 48.26 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f36c5266-0a5e-44b3-8fbe-6318992c4166")
+		(property "Reference" "D5"
+			(at 51.308 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 51.308 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e56cd551-171e-45f7-ba62-2d6fa127f76c")
+		)
+		(pin "1"
+			(uuid "0bccc78f-edfd-472c-9f0a-5cc8ae514b4a")
+		)
+		(instances
+			(project "Core4GPZ"
+				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
+					(reference "D5")
 					(unit 1)
 				)
 			)

@@ -1298,15 +1298,15 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U3"
+				(at 0 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "~"
 				(at 1.27 1.27 0)
 				(effects
 					(font
@@ -1424,9 +1424,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -1.27 180)
+					(at 7.62 8.89 180)
 					(length 2.54)
-					(name "2F"
+					(name "2B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1442,9 +1442,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -3.81 180)
+					(at 7.62 6.35 180)
 					(length 2.54)
-					(name "2G"
+					(name "2C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1496,9 +1496,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 8.89 180)
+					(at 7.62 -1.27 180)
 					(length 2.54)
-					(name "2B"
+					(name "2F"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1514,9 +1514,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 6.35 180)
+					(at 7.62 -3.81 180)
 					(length 2.54)
-					(name "2C"
+					(name "2G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2112,6 +2112,1972 @@
 				)
 			)
 			(symbol "Molex_Conn_48_Male_Black_3_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Molex 48pin male header Black\nRight-side power pins"
+					(at 0 -10.16 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "1L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "1M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "2L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "2M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "3L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "3M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "4L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "4M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Molex_Conn_48_Male_Black_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U3"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Molex_CMC_Conn:Molex_CMC_48pin_Male_Black"
+				(at 1.27 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Molex_Conn_48_Male_Black_1_1_1"
+				(rectangle
+					(start -5.08 12.7)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Molex 48pin male header Black\nRow 1 & 2"
+					(at 1.27 -16.51 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 11.43 0)
+					(length 2.54)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -11.43 0)
+					(length 2.54)
+					(name "1K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 11.43 180)
+					(length 2.54)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 8.89 180)
+					(length 2.54)
+					(name "2B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 6.35 180)
+					(length 2.54)
+					(name "2C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "2D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "2E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "2F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "2G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(name "2H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -8.89 180)
+					(length 2.54)
+					(name "2J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 8.89 0)
+					(length 2.54)
+					(name "1B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -11.43 180)
+					(length 2.54)
+					(name "2K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 6.35 0)
+					(length 2.54)
+					(name "1C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "1D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "1E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "1F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "1G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -6.35 0)
+					(length 2.54)
+					(name "1H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -8.89 0)
+					(length 2.54)
+					(name "1J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Molex_Conn_48_Male_Black_1_2_1"
+				(rectangle
+					(start -5.08 12.7)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Molex 48pin male header Black\nRow 2 & 3"
+					(at 0 -16.51 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 11.43 0)
+					(length 2.54)
+					(name "3A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 8.89 0)
+					(length 2.54)
+					(name "3B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 6.35 0)
+					(length 2.54)
+					(name "3C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "3D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "3E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "3F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "3G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -6.35 0)
+					(length 2.54)
+					(name "3H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -8.89 0)
+					(length 2.54)
+					(name "3J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -11.43 0)
+					(length 2.54)
+					(name "3K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 11.43 180)
+					(length 2.54)
+					(name "4A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 8.89 180)
+					(length 2.54)
+					(name "4B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 6.35 180)
+					(length 2.54)
+					(name "4C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "4D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "4E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "4F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "4G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(name "4H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -8.89 180)
+					(length 2.54)
+					(name "4J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -11.43 180)
+					(length 2.54)
+					(name "4K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Molex_Conn_48_Male_Black_1_3_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Molex 48pin male header Black\nRight-side power pins"
+					(at 0 -10.16 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "1L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "1M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "2L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "2M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "3L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "3M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "4L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "4M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Molex_Conn_48_Male_Black_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U3"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Molex_CMC_Conn:Molex_CMC_48pin_Male_Black"
+				(at 1.27 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Molex_Conn_48_Male_Black_2_1_1"
+				(rectangle
+					(start -5.08 12.7)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Molex 48pin male header Black\nRow 1 & 2"
+					(at 1.27 -16.51 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 11.43 0)
+					(length 2.54)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -11.43 0)
+					(length 2.54)
+					(name "1K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 11.43 180)
+					(length 2.54)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 8.89 180)
+					(length 2.54)
+					(name "2B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 6.35 180)
+					(length 2.54)
+					(name "2C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "2D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "2E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "2F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "2G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(name "2H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -8.89 180)
+					(length 2.54)
+					(name "2J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 8.89 0)
+					(length 2.54)
+					(name "1B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -11.43 180)
+					(length 2.54)
+					(name "2K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 6.35 0)
+					(length 2.54)
+					(name "1C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "1D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "1E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "1F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "1G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -6.35 0)
+					(length 2.54)
+					(name "1H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -8.89 0)
+					(length 2.54)
+					(name "1J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Molex_Conn_48_Male_Black_2_2_1"
+				(rectangle
+					(start -5.08 12.7)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Molex 48pin male header Black\nRow 2 & 3"
+					(at 0 -16.51 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 11.43 0)
+					(length 2.54)
+					(name "3A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 8.89 0)
+					(length 2.54)
+					(name "3B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 6.35 0)
+					(length 2.54)
+					(name "3C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "3D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "3E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "3F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "3G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -6.35 0)
+					(length 2.54)
+					(name "3H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -8.89 0)
+					(length 2.54)
+					(name "3J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -11.43 0)
+					(length 2.54)
+					(name "3K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 11.43 180)
+					(length 2.54)
+					(name "4A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 8.89 180)
+					(length 2.54)
+					(name "4B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 6.35 180)
+					(length 2.54)
+					(name "4C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "4D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "4E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "4F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "4G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(name "4H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -8.89 180)
+					(length 2.54)
+					(name "4J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -11.43 180)
+					(length 2.54)
+					(name "4K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Molex_Conn_48_Male_Black_2_3_1"
 				(rectangle
 					(start -5.08 6.35)
 					(end 5.08 -6.35)
@@ -5133,12 +7099,6 @@
 		(uuid "1f9b57ad-0358-4be8-b457-df0b56b430d5")
 	)
 	(junction
-		(at 246.38 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50f1db35-d25f-42cc-88be-05db74a0893f")
-	)
-	(junction
 		(at 137.16 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5169,20 +7129,16 @@
 		(uuid "a9aec61b-503a-456f-aa7f-8f2c98b9adb0")
 	)
 	(junction
-		(at 226.06 41.91)
+		(at 246.38 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "abf0b528-6e3a-4219-b349-493099321756")
+		(uuid "b43dc07a-04d5-47a1-8817-9018d2fca231")
 	)
 	(junction
 		(at 246.38 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f689fc6b-2893-44d7-9b9e-bd494a0b732f")
-	)
-	(no_connect
-		(at 60.96 52.07)
-		(uuid "06f1d5cc-da1e-4835-be70-6067be5dcc46")
 	)
 	(no_connect
 		(at 220.98 96.52)
@@ -5217,16 +7173,16 @@
 		(uuid "466dd5a1-a9a7-4126-b691-113b4f99d9b1")
 	)
 	(no_connect
+		(at 60.96 44.45)
+		(uuid "47390f60-6a5f-4f4e-8c78-9e856f3f9912")
+	)
+	(no_connect
 		(at 250.19 109.22)
 		(uuid "5b0885e7-8125-40be-995f-dba8387c363f")
 	)
 	(no_connect
 		(at 250.19 104.14)
 		(uuid "603909a6-319a-4490-bbea-2f221c99e822")
-	)
-	(no_connect
-		(at 60.96 49.53)
-		(uuid "610c7dd2-3aec-4f95-a4eb-7d9298460375")
 	)
 	(no_connect
 		(at 172.72 92.71)
@@ -5237,12 +7193,20 @@
 		(uuid "6dabf1c0-d8c1-43b8-af05-2f8670eeb63c")
 	)
 	(no_connect
+		(at 76.2 52.07)
+		(uuid "6fd074f1-8d18-4e4b-8e7c-c00ad599f2c6")
+	)
+	(no_connect
 		(at 250.19 106.68)
 		(uuid "759e6f5a-068d-4db6-8f80-29dc02e8e65b")
 	)
 	(no_connect
 		(at 250.19 93.98)
 		(uuid "7b7ca255-e7a7-4f40-9541-aa647c379ae0")
+	)
+	(no_connect
+		(at 76.2 39.37)
+		(uuid "82ac971b-8905-4c29-b365-87cc5194cac6")
 	)
 	(no_connect
 		(at 250.19 101.6)
@@ -5273,6 +7237,18 @@
 		(uuid "b96f7dcb-7775-4721-bc1c-f0b9388a6553")
 	)
 	(no_connect
+		(at 76.2 49.53)
+		(uuid "ba557d64-1803-486d-b378-7b78037eb035")
+	)
+	(no_connect
+		(at 76.2 34.29)
+		(uuid "bb329015-c644-48c1-8925-040b7db2663d")
+	)
+	(no_connect
+		(at 76.2 36.83)
+		(uuid "bbd4f3c0-d5d4-429d-ac28-d2140d1bcabe")
+	)
+	(no_connect
 		(at 53.34 99.06)
 		(uuid "beed0d6d-35a9-4611-b3ee-458ed1b9e668")
 	)
@@ -5295,6 +7271,10 @@
 	(no_connect
 		(at 172.72 102.87)
 		(uuid "d6132aad-e5de-4618-b0d4-876e0b12a133")
+	)
+	(no_connect
+		(at 76.2 46.99)
+		(uuid "d6459d17-fab9-4706-bb69-19d86fbab0a3")
 	)
 	(no_connect
 		(at 172.72 90.17)
@@ -5324,7 +7304,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 34.29) (xy 228.6 34.29)
+			(xy 246.38 34.29) (xy 243.84 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5394,16 +7374,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 34.29) (xy 78.74 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13633e4c-2722-490b-ba30-c2344ad3239d")
-	)
-	(wire
-		(pts
 			(xy 166.37 41.91) (xy 168.91 41.91)
 		)
 		(stroke
@@ -5444,6 +7414,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 30.48) (xy 246.38 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d85b31-be72-4f6f-a06d-9426c6616fa8")
+	)
+	(wire
+		(pts
 			(xy 148.59 46.99) (xy 151.13 46.99)
 		)
 		(stroke
@@ -5451,16 +7431,6 @@
 			(type default)
 		)
 		(uuid "2d2f047b-c742-4ed4-b974-1ae59f3f24ba")
-	)
-	(wire
-		(pts
-			(xy 76.2 31.75) (xy 78.74 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d47d003-817f-42eb-b671-e017f000d46f")
 	)
 	(wire
 		(pts
@@ -5501,6 +7471,16 @@
 			(type default)
 		)
 		(uuid "38f03ebf-f9ae-4706-b4f9-f0fe76b252b2")
+	)
+	(wire
+		(pts
+			(xy 76.2 31.75) (xy 78.74 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0936d5-5a54-4501-984c-8d972d5027a8")
 	)
 	(wire
 		(pts
@@ -5571,6 +7551,16 @@
 			(type default)
 		)
 		(uuid "4e802429-8978-4cc6-9a37-528a36e1038e")
+	)
+	(wire
+		(pts
+			(xy 228.6 34.29) (xy 226.06 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5d74fd-e40b-4a94-a04c-2d7502739995")
 	)
 	(wire
 		(pts
@@ -5664,16 +7654,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 52.07) (xy 78.74 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cff0d88-8d8d-4d65-be57-67c28cb50c28")
-	)
-	(wire
-		(pts
 			(xy 243.84 44.45) (xy 246.38 44.45)
 		)
 		(stroke
@@ -5734,26 +7714,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 34.29) (xy 246.38 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6882ba4c-7639-4a66-98e0-b204b7359c54")
-	)
-	(wire
-		(pts
-			(xy 226.06 36.83) (xy 226.06 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6abc2280-0cd9-4d83-a385-e15671bf8694")
-	)
-	(wire
-		(pts
 			(xy 58.42 34.29) (xy 60.96 34.29)
 		)
 		(stroke
@@ -5794,16 +7754,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 46.99) (xy 78.74 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71bab81e-b045-45e1-a467-f82418e63430")
-	)
-	(wire
-		(pts
 			(xy 166.37 31.75) (xy 168.91 31.75)
 		)
 		(stroke
@@ -5814,16 +7764,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 36.83) (xy 78.74 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72709cf1-c157-4ec6-83a1-128d89bb1c95")
-	)
-	(wire
-		(pts
 			(xy 148.59 34.29) (xy 151.13 34.29)
 		)
 		(stroke
@@ -5831,6 +7771,16 @@
 			(type default)
 		)
 		(uuid "733b8a50-39a9-403d-919a-4c2ddf74f027")
+	)
+	(wire
+		(pts
+			(xy 226.06 30.48) (xy 246.38 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736e5e11-88d8-4e0b-aa45-2e84519876a6")
 	)
 	(wire
 		(pts
@@ -5851,6 +7801,16 @@
 			(type default)
 		)
 		(uuid "7baa2c6a-1505-4ff8-b522-08c6b9cb547a")
+	)
+	(wire
+		(pts
+			(xy 58.42 52.07) (xy 60.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd8fac8-283b-4e8b-941d-ad48de8ab4d5")
 	)
 	(wire
 		(pts
@@ -5904,16 +7864,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 49.53) (xy 78.74 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ddeedf6-1b09-4e19-af71-aad5e275bec4")
-	)
-	(wire
-		(pts
 			(xy 148.59 29.21) (xy 151.13 29.21)
 		)
 		(stroke
@@ -5954,13 +7904,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 39.37) (xy 78.74 39.37)
+			(xy 58.42 46.99) (xy 60.96 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "999a32a0-dc77-47b8-a052-9c2ee991129e")
+		(uuid "9bde33d6-b61e-425f-a175-eb83c90d5610")
 	)
 	(wire
 		(pts
@@ -5991,6 +7941,16 @@
 			(type default)
 		)
 		(uuid "9e430d77-de9d-4a2b-819a-3870043eff76")
+	)
+	(wire
+		(pts
+			(xy 58.42 49.53) (xy 60.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec1724a-149d-4e97-9712-1541eddaac02")
 	)
 	(wire
 		(pts
@@ -6114,6 +8074,26 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 34.29) (xy 248.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33871d3-8c7a-4574-a714-419a64290689")
+	)
+	(wire
+		(pts
+			(xy 226.06 34.29) (xy 226.06 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e84d21-8766-45a0-9403-8c1b84c9a483")
+	)
+	(wire
+		(pts
 			(xy 82.55 86.36) (xy 85.09 86.36)
 		)
 		(stroke
@@ -6151,16 +8131,6 @@
 			(type default)
 		)
 		(uuid "d364288a-a3bf-4438-be9e-28d4b718609f")
-	)
-	(wire
-		(pts
-			(xy 246.38 36.83) (xy 246.38 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d42d7281-7feb-438f-ab7e-d1e71992701d")
 	)
 	(wire
 		(pts
@@ -6264,9 +8234,9 @@
 		)
 		(uuid "53e167ba-254a-4914-8911-911f8028c6bf")
 	)
-	(global_label "INJ1_+12V"
+	(global_label "INJ_+12V"
 		(shape input)
-		(at 78.74 29.21 0)
+		(at 78.74 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6276,7 +8246,7 @@
 		)
 		(uuid "032ad5ef-1539-47c2-8557-5d7f0bf4d738")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.8852 29.21 0)
+			(at 90.6757 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,6 +8300,28 @@
 			)
 		)
 	)
+	(global_label "CAM_SIGNAL"
+		(shape input)
+		(at 140.97 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19324558-b43a-4505-a273-a9d38513a7e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.6757 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPR2_SWITCH"
 		(shape input)
 		(at 168.91 39.37 0)
@@ -6354,22 +8346,22 @@
 	)
 	(global_label "FLEX_+5V"
 		(shape input)
-		(at 168.91 41.91 0)
+		(at 148.59 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "25b0a403-2698-4017-90c4-648e8cf00ede")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.2085 41.91 0)
+			(at 136.2915 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6398,29 +8390,7 @@
 	)
 	(global_label "O2WB_+5V"
 		(shape input)
-		(at 168.91 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "29bcb6a1-0f1a-4a52-a782-dd07c2bee1e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.9947 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IGN_COIL2_DRIVE"
-		(shape input)
-		(at 58.42 39.37 180)
+		(at 148.59 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6428,9 +8398,9 @@
 			)
 			(justify right)
 		)
-		(uuid "2f6f9aca-8cfe-42f2-b7f2-68259ff2e25b")
+		(uuid "29bcb6a1-0f1a-4a52-a782-dd07c2bee1e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.469 39.37 0)
+			(at 135.5053 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,9 +8410,31 @@
 			)
 		)
 	)
-	(global_label "INJ4_+12V"
+	(global_label "IGN_COIL2_DRIVE"
 		(shape input)
-		(at 78.74 36.83 0)
+		(at 58.42 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f6f9aca-8cfe-42f2-b7f2-68259ff2e25b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.469 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BIKE_GROUND"
+		(shape input)
+		(at 248.92 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6450,9 +8442,9 @@
 			)
 			(justify left)
 		)
-		(uuid "32eafc68-b1d0-4ff1-acec-40dc314b75a4")
+		(uuid "39736330-4799-4e1d-984f-3d83a1cab269")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.8852 36.83 0)
+			(at 264.9681 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +8456,7 @@
 	)
 	(global_label "BIKE_+12V_SWITCHED_IN"
 		(shape input)
-		(at 224.79 34.29 180)
+		(at 226.06 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6474,7 +8466,7 @@
 		)
 		(uuid "3ae39f98-66f2-444a-861e-a4b1d87a70b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.3401 34.29 0)
+			(at 199.6101 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6508,44 +8500,22 @@
 	)
 	(global_label "TPS_+5V"
 		(shape input)
-		(at 168.91 52.07 0)
+		(at 148.59 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "43c2deaa-4f66-4b69-9c33-e17b438aeba6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.1804 52.07 0)
+			(at 137.3196 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "INJ2_+12V"
-		(shape input)
-		(at 78.74 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52683170-58cf-41b2-887c-26486eed5915")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.8852 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6568,6 +8538,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CRANK_SIGNAL"
+		(shape input)
+		(at 140.97 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f5e1485-8015-4a39-80b9-7ea48cda0266")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.2566 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6770,28 +8762,6 @@
 			)
 		)
 	)
-	(global_label "INJ3_+12V"
-		(shape input)
-		(at 78.74 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bec57628-880d-4ec9-893d-f501cb756e93")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.8852 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IGN_TRIG_4"
 		(shape input)
 		(at 85.09 86.36 0)
@@ -6816,22 +8786,22 @@
 	)
 	(global_label "IAT_+5V"
 		(shape input)
-		(at 168.91 46.99 0)
+		(at 148.59 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d5ac6fef-9c48-4353-ba40-5e7ad443ad02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.3943 46.99 0)
+			(at 138.1057 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6860,7 +8830,7 @@
 	)
 	(global_label "IGN_COIL1_DRIVE"
 		(shape input)
-		(at 58.42 41.91 180)
+		(at 58.42 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6870,7 +8840,7 @@
 		)
 		(uuid "e64c1679-51c3-4698-bdad-8704ff571dad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.469 41.91 0)
+			(at 39.469 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,22 +8852,22 @@
 	)
 	(global_label "CLT_+5V"
 		(shape input)
-		(at 168.91 49.53 0)
+		(at 148.59 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "eb34e357-17c5-4df1-aa9c-9488298d2def")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.999 49.53 0)
+			(at 137.501 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6928,7 +8898,19 @@
 	)
 	(hierarchical_label "IDLE_1"
 		(shape input)
-		(at 78.74 49.53 0)
+		(at 58.42 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10144c42-9181-4e25-b65b-74ab2fa1e57b")
+	)
+	(hierarchical_label "02_SNSR"
+		(shape input)
+		(at 175.26 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6936,17 +8918,17 @@
 			)
 			(justify left)
 		)
-		(uuid "10144c42-9181-4e25-b65b-74ab2fa1e57b")
+		(uuid "24211704-ea4e-4e04-a251-6a1a19e8397f")
 	)
 	(hierarchical_label "FLEX_SNSR"
 		(shape input)
-		(at 148.59 41.91 180)
+		(at 168.91 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "281ec468-4b05-4380-8b0a-51c27311b2b1")
 	)
@@ -6976,7 +8958,7 @@
 	)
 	(hierarchical_label "INJ4_TRIG"
 		(shape input)
-		(at 58.42 36.83 180)
+		(at 58.42 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6988,7 +8970,7 @@
 	)
 	(hierarchical_label "INJ2_TRIG"
 		(shape input)
-		(at 58.42 31.75 180)
+		(at 58.42 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7022,33 +9004,9 @@
 		)
 		(uuid "4e7b9513-c059-4e82-ac13-68326304f84b")
 	)
-	(hierarchical_label "CAM_SNSR"
-		(shape input)
-		(at 140.97 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "51beeb03-d6e7-4429-b6d2-ba34edb85c86")
-	)
-	(hierarchical_label "CRANK_SNSR"
-		(shape input)
-		(at 140.97 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5d343f06-2ac3-4eef-a5a7-04d45b30ad04")
-	)
 	(hierarchical_label "TACHO"
 		(shape input)
-		(at 78.74 41.91 0)
+		(at 78.74 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7082,18 +9040,6 @@
 		)
 		(uuid "63d6edbe-d2cd-458d-9b89-88db65af9fd2")
 	)
-	(hierarchical_label "O2_SNSR"
-		(shape input)
-		(at 175.26 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "69a8c87b-42c5-4aec-845d-2e92524635a2")
-	)
 	(hierarchical_label "NEUTRAL_LIGHT"
 		(shape input)
 		(at 85.09 104.14 0)
@@ -7108,7 +9054,7 @@
 	)
 	(hierarchical_label "INJ1_TRIG"
 		(shape input)
-		(at 58.42 29.21 180)
+		(at 58.42 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7120,19 +9066,19 @@
 	)
 	(hierarchical_label "IAT_SNSR"
 		(shape input)
-		(at 148.59 46.99 180)
+		(at 168.91 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9e6d3dbb-da96-4c18-9ca6-fefe02380e9b")
 	)
 	(hierarchical_label "INJ3_TRIG"
 		(shape input)
-		(at 58.42 34.29 180)
+		(at 58.42 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7144,25 +9090,25 @@
 	)
 	(hierarchical_label "TPS_SNSR"
 		(shape input)
-		(at 148.59 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9fd5446f-9555-4329-92e6-a8dbf20bbc8c")
-	)
-	(hierarchical_label "FAN_CTL"
-		(shape input)
-		(at 78.74 46.99 0)
+		(at 168.91 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "9fd5446f-9555-4329-92e6-a8dbf20bbc8c")
+	)
+	(hierarchical_label "FAN_CTL"
+		(shape input)
+		(at 58.42 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "a1ed5db1-94cf-40f5-81a0-79fd039ba8a8")
 	)
@@ -7180,19 +9126,19 @@
 	)
 	(hierarchical_label "02_SNSR"
 		(shape input)
-		(at 148.59 44.45 180)
+		(at 168.91 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b0d371af-651c-46ab-9c6e-713e6aa229fb")
 	)
 	(hierarchical_label "NEUTRAL_LIGHT"
 		(shape input)
-		(at 78.74 39.37 0)
+		(at 78.74 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7228,25 +9174,25 @@
 	)
 	(hierarchical_label "FUEL_PUMP"
 		(shape input)
-		(at 78.74 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d56304e1-722e-49bd-8a78-16ec3a5886e0")
-	)
-	(hierarchical_label "CLT_SNSR"
-		(shape input)
-		(at 148.59 49.53 180)
+		(at 58.42 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
+		)
+		(uuid "d56304e1-722e-49bd-8a78-16ec3a5886e0")
+	)
+	(hierarchical_label "CLT_SNSR"
+		(shape input)
+		(at 168.91 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "e0a26655-9ab7-4413-8392-96b3d1610b90")
 	)
@@ -7824,6 +9770,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Molex_Conn_48_Male_Black_2")
 		(lib_id "Molex_CMC_Conn:Molex_Conn_48_Male_Black")
 		(at 158.75 40.64 0)
 		(unit 2)
@@ -8569,6 +10516,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Molex_Conn_48_Male_Black_1")
 		(lib_id "Molex_CMC_Conn:Molex_Conn_48_Male_Black")
 		(at 236.22 39.37 0)
 		(unit 3)
@@ -8579,7 +10527,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0b1e364-097d-4486-a9a4-8f53783cc511")
 		(property "Reference" "U3"
-			(at 236.22 30.48 0)
+			(at 236.22 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

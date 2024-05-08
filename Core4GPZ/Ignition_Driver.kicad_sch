@@ -912,6 +912,12 @@
 		(uuid "3604b2ac-1af7-4459-bab6-49cadee31919")
 	)
 	(junction
+		(at 154.94 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "397f7099-f100-4eae-b8f1-2f8d4e0db8de")
+	)
+	(junction
 		(at 69.85 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -934,12 +940,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6448c43-2e42-4a47-aa83-5357b44e6a88")
-	)
-	(junction
-		(at 154.94 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6790293-0f58-41af-a40e-605552ba244b")
 	)
 	(wire
 		(pts
@@ -1476,78 +1476,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 154.94 55.88 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "33ec2361-4ded-4cc5-ae82-bd61c332ab11")
-		(property "Reference" "JP2"
-			(at 157.226 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at 157.226 50.292 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 154.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a396660f-fc06-454e-946e-0350c5ad8038")
-		)
-		(pin "2"
-			(uuid "2f6b7dd4-8fee-4835-9f5c-f0fadd58ad21")
-		)
-		(pin "1"
-			(uuid "3f8236ea-1686-49a4-b926-656799cd34fb")
-		)
-		(instances
-			(project "Core4GPZ"
-				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 173.99 78.74 0)
 		(unit 1)
@@ -1971,6 +1899,78 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 154.94 55.88 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "82d112fd-c066-4c08-85d8-ccd823341f31")
+		(property "Reference" "JP2"
+			(at 157.226 52.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 157.226 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 154.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 154.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "edd8e217-0300-4481-ba49-d22e6db0bb5c")
+		)
+		(pin "2"
+			(uuid "c5ad74b7-69a2-46e7-93dc-f2ecbb6d302f")
+		)
+		(pin "1"
+			(uuid "9699d2b2-e883-47b8-894c-c522055bc893")
+		)
+		(instances
+			(project "Core4GPZ"
+				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
 		(at 69.85 55.88 270)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1996,7 +1996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 69.85 55.88 0)
 			(effects
 				(font
