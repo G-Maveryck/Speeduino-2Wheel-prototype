@@ -2547,6 +2547,7 @@
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
 		(at 205.74 66.04 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2554,7 +2555,7 @@
 		(dnp no)
 		(uuid "6212bf33-f130-46f4-8df9-5eba3e1fac85")
 		(property "Reference" "JP3"
-			(at 211.582 68.834 90)
+			(at 211.582 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2564,7 @@
 			)
 		)
 		(property "Value" "Crank - VR/Hall Selector"
-			(at 232.664 62.484 90)
+			(at 232.664 69.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)

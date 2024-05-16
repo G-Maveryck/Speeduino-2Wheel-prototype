@@ -7145,6 +7145,10 @@
 		(uuid "07e11495-d4f5-4750-a8f9-6802166f427b")
 	)
 	(no_connect
+		(at 58.42 41.91)
+		(uuid "17f0c490-d1ae-48a4-a624-e3af4f72f928")
+	)
+	(no_connect
 		(at 151.13 39.37)
 		(uuid "185e5075-10e5-4ced-98e9-64b3d171ad94")
 	)
@@ -7207,6 +7211,10 @@
 	(no_connect
 		(at 76.2 39.37)
 		(uuid "82ac971b-8905-4c29-b365-87cc5194cac6")
+	)
+	(no_connect
+		(at 58.42 39.37)
+		(uuid "899b2af3-5d46-4909-8263-edddf9a0d45b")
 	)
 	(no_connect
 		(at 250.19 101.6)
@@ -8698,7 +8706,7 @@
 	)
 	(global_label "CAM_SNSR_VR-"
 		(shape input)
-		(at 148.59 36.83 180)
+		(at 148.59 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8708,7 +8716,7 @@
 		)
 		(uuid "a1a7805e-c876-41e6-8e75-8a3ebab07be7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.9091 36.83 0)
+			(at 130.9091 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +8728,7 @@
 	)
 	(global_label "CRANK_SNSR"
 		(shape input)
-		(at 148.59 29.21 180)
+		(at 148.59 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8730,7 +8738,7 @@
 		)
 		(uuid "a5b8e829-6994-4d19-97d6-33ed10e42bab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.3886 29.21 0)
+			(at 133.3886 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,21 +8964,9 @@
 		)
 		(uuid "30c26287-accc-48e3-819e-14e21c5b1f41")
 	)
-	(hierarchical_label "INJ4_TRIG"
-		(shape input)
-		(at 58.42 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "363c9e51-9e46-406d-97c8-1f1f739f53ae")
-	)
 	(hierarchical_label "INJ2_TRIG"
 		(shape input)
-		(at 58.42 39.37 180)
+		(at 58.42 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9054,7 +9050,7 @@
 	)
 	(hierarchical_label "INJ1_TRIG"
 		(shape input)
-		(at 58.42 41.91 180)
+		(at 58.42 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9075,18 +9071,6 @@
 			(justify left)
 		)
 		(uuid "9e6d3dbb-da96-4c18-9ca6-fefe02380e9b")
-	)
-	(hierarchical_label "INJ3_TRIG"
-		(shape input)
-		(at 58.42 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9ed486f5-c79c-41e0-af04-6f03cdb5787f")
 	)
 	(hierarchical_label "TPS_SNSR"
 		(shape input)
