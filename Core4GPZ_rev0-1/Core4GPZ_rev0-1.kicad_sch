@@ -7219,6 +7219,10 @@
 		(uuid "7b7ca255-e7a7-4f40-9541-aa647c379ae0")
 	)
 	(no_connect
+		(at 85.09 31.75)
+		(uuid "7ca7d740-10e3-43fc-aaf9-6f6ac86d8ab4")
+	)
+	(no_connect
 		(at 151.13 36.83)
 		(uuid "84c92c54-868e-4483-99e9-cf53bffaced0")
 	)
@@ -7305,6 +7309,16 @@
 	(no_connect
 		(at 220.98 106.68)
 		(uuid "f918533b-c987-4a54-a6ba-8181aef76947")
+	)
+	(wire
+		(pts
+			(xy 135.89 143.51) (xy 135.89 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00512423-8369-426f-b160-3bfcd2187955")
 	)
 	(wire
 		(pts
@@ -7658,7 +7672,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 142.24) (xy 135.89 142.24)
+			(xy 133.35 143.51) (xy 135.89 143.51)
 		)
 		(stroke
 			(width 0)
@@ -9144,18 +9158,6 @@
 		)
 		(uuid "b0d371af-651c-46ab-9c6e-713e6aa229fb")
 	)
-	(hierarchical_label "NEUTRAL_LIGHT"
-		(shape input)
-		(at 85.09 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b85b9083-3e71-4182-bfc3-2aaa813f36f9")
-	)
 	(hierarchical_label "IDLE_1"
 		(shape input)
 		(at 50.8 114.3 180)
@@ -10254,7 +10256,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 133.35 142.24 90)
+		(at 133.35 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10263,7 +10265,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c70df72-1ab3-4790-b636-b0383dcf3c4c")
 		(property "Reference" "#PWR07"
-			(at 137.16 142.24 0)
+			(at 137.16 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10272,7 +10274,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 129.54 142.24 90)
+			(at 129.54 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10281,7 +10283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 142.24 0)
+			(at 133.35 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10290,7 +10292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 142.24 0)
+			(at 133.35 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,7 +10301,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 142.24 0)
+			(at 133.35 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
