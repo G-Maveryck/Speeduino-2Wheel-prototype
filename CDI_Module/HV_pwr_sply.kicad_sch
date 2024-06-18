@@ -1172,6 +1172,319 @@
 				)
 			)
 		)
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NMOS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "NMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Timer:NE555P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1403,301 +1716,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Transistor_FET:IRF3205"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IRF3205"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf3205.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Single N-Channel HEXFET Power MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "IRF3205_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "IRF3205_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2039,6 +2057,12 @@
 		(uuid "12980db1-ef74-45f1-af8c-93c2157d8b55")
 	)
 	(junction
+		(at 198.12 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21cc35dc-7d8e-4304-88b6-5e96841b19cd")
+	)
+	(junction
 		(at 66.04 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2069,12 +2093,6 @@
 		(uuid "5a11af91-93f6-407c-ae1b-a501ff1b6785")
 	)
 	(junction
-		(at 194.31 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61864e66-11df-41e5-b755-d812987c57cd")
-	)
-	(junction
 		(at 187.96 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2085,6 +2103,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c546048-ed40-45c5-b6ca-db6a29733b69")
+	)
+	(junction
+		(at 205.74 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "980c8437-f8b5-4837-aa80-501998444bfd")
 	)
 	(junction
 		(at 170.18 49.53)
@@ -2174,7 +2198,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 134.62) (xy 194.31 133.35)
+			(xy 205.74 135.89) (xy 205.74 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2201,16 +2225,6 @@
 			(type default)
 		)
 		(uuid "12b7e4c3-6c0b-42ef-bbb4-7000dcd07d19")
-	)
-	(wire
-		(pts
-			(xy 194.31 133.35) (xy 205.74 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15aec12e-4b3a-4142-badf-34ef342f2d41")
 	)
 	(wire
 		(pts
@@ -2294,6 +2308,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 133.35) (xy 205.74 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2e78c1-07f8-4a81-af35-2365e74fa8e7")
+	)
+	(wire
+		(pts
 			(xy 53.34 54.61) (xy 53.34 57.15)
 		)
 		(stroke
@@ -2304,7 +2328,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 35.56) (xy 207.01 35.56)
+			(xy 203.2 35.56) (xy 222.25 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2334,7 +2358,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 124.46) (xy 194.31 133.35)
+			(xy 198.12 124.46) (xy 198.12 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2371,6 +2395,16 @@
 			(type default)
 		)
 		(uuid "4d179d35-f790-4e51-a954-a8c5cc5ab2f1")
+	)
+	(wire
+		(pts
+			(xy 198.12 124.46) (xy 194.31 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f96ecc2-fb54-4db1-94ea-c22c1ade8a6a")
 	)
 	(wire
 		(pts
@@ -2454,7 +2488,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 144.78) (xy 181.61 144.78)
+			(xy 205.74 144.78) (xy 181.61 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2481,16 +2515,6 @@
 			(type default)
 		)
 		(uuid "9b89c07e-b2b9-4969-8883-8c39d79ceaaa")
-	)
-	(wire
-		(pts
-			(xy 214.63 35.56) (xy 222.25 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a16f2aea-80f8-4766-b98e-aedbb9cd5b3b")
 	)
 	(wire
 		(pts
@@ -2644,7 +2668,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 133.35) (xy 166.37 133.35)
+			(xy 166.37 133.35) (xy 198.12 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2714,7 +2738,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 142.24) (xy 194.31 144.78)
+			(xy 205.74 143.51) (xy 205.74 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2722,7 +2746,7 @@
 		)
 		(uuid "fedb8094-7e44-47fb-b05a-b3f0ba60459d")
 	)
-	(text "Dimentionnement oscillateur :\nVOut = 10,5V\nf = 3,607 kHz\nDuty Cycle = 75%\n\nT = 277 us\n"
+	(text "Dimentionnement oscillateur :\nVOut = 10,5V\nf = 109,295 kHz\nDuty Cycle = 75%\n\nT = 9,15 us\nT(up) = 6,862 us\nT(down) = 2,287 us\n"
 		(exclude_from_sim no)
 		(at 217.17 126.746 0)
 		(effects
@@ -2743,16 +2767,6 @@
 			(justify left)
 		)
 		(uuid "aa8a4944-044a-4dec-8fd7-89dfb61cd0bd")
-	)
-	(text "Don't know if D2 is usefull\n"
-		(exclude_from_sim no)
-		(at 221.742 40.132 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c9afa75e-be89-4af5-b407-acfe0a43f9a9")
 	)
 	(label "HT out should be around 40V"
 		(at 222.25 35.56 0)
@@ -2832,92 +2846,6 @@
 			(justify left)
 		)
 		(uuid "d271001e-f5cb-48da-8cdc-9cc4acc87561")
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 210.82 35.56 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ea1aec3-3c74-4de5-aad7-4c3371a80185")
-		(property "Reference" "D2"
-			(at 210.82 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1n4007"
-			(at 210.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 210.82 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 210.82 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "92ba66ee-f89f-4392-9ca2-08e9d9ae16f4")
-		)
-		(pin "1"
-			(uuid "7814d190-9be5-4cff-85e9-f2c4018df470")
-		)
-		(instances
-			(project "CDI_Module"
-				(path "/a4713233-3633-4d06-9186-8236551fb01a/0d28dddc-bb20-4ced-8840-72b43d7554f4"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_name "GND_1")
@@ -3051,6 +2979,176 @@
 			(project "CDI_Module"
 				(path "/a4713233-3633-4d06-9186-8236551fb01a/0d28dddc-bb20-4ced-8840-72b43d7554f4"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 203.2 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aea0e62-ef61-4aef-8b68-d1a83d3691d8")
+		(property "Reference" "C3"
+			(at 207.01 47.3709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF / 100V"
+			(at 207.01 49.9109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.1652 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 203.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f8cd071-5937-4f77-86d9-36e2c550ec74")
+		)
+		(pin "2"
+			(uuid "ee792c58-3520-4703-80c4-0b8b1eca5d34")
+		)
+		(instances
+			(project "CDI_Module"
+				(path "/a4713233-3633-4d06-9186-8236551fb01a/0d28dddc-bb20-4ced-8840-72b43d7554f4"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 185.42 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ca41f17-dcdf-4915-bf41-8dc74ef94dfe")
+		(property "Reference" "Q2"
+			(at 191.77 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 191.77 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 185.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 185.42 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 185.42 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 185.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e260628a-16c4-4951-8040-f79e82c29c48")
+		)
+		(pin "2"
+			(uuid "fae2b4a1-3316-4c8d-8ca7-93cd16d3a9b8")
+		)
+		(pin "3"
+			(uuid "3af728de-28b6-4b70-87cd-15563c96465e")
+		)
+		(instances
+			(project "CDI_Module"
+				(path "/a4713233-3633-4d06-9186-8236551fb01a/0d28dddc-bb20-4ced-8840-72b43d7554f4"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3193,81 +3291,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF3205")
-		(at 185.42 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4933d651-6e64-48b8-8068-36c815b1c474")
-		(property "Reference" "Q1"
-			(at 189.738 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF3205"
-			(at 189.738 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 190.5 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf3205.pdf"
-			(at 190.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"
-			(at 185.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "25b8e970-4987-4e35-8613-1d55d6f1ec30")
-		)
-		(pin "1"
-			(uuid "9f3227bf-76e8-4ac6-b11c-e32f18c144b4")
-		)
-		(pin "2"
-			(uuid "f5d0d1ab-0fb6-4a51-aba1-2f582d86e581")
-		)
-		(instances
-			(project "CDI_Module"
-				(path "/a4713233-3633-4d06-9186-8236551fb01a/0d28dddc-bb20-4ced-8840-72b43d7554f4"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 170.18 57.15 0)
 		(unit 1)
@@ -3286,7 +3309,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 172.72 58.4199 0)
 			(effects
 				(font
@@ -3355,7 +3378,7 @@
 				)
 			)
 		)
-		(property "Value" "100uH"
+		(property "Value" "470uH"
 			(at 179.07 33.02 90)
 			(effects
 				(font
@@ -3558,7 +3581,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "6k6"
 			(at 208.28 113.0299 0)
 			(effects
 				(font
@@ -3766,76 +3789,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 203.2 49.53 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "922738dd-2f11-49be-8409-7bdc20166895")
-		(property "Reference" "C3"
-			(at 207.01 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 207.01 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
-			(at 204.1652 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 203.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "031637f2-2a66-43cc-bdf7-5f0b10eab2fb")
-		)
-		(pin "2"
-			(uuid "262098f3-883d-4bc5-bc01-e598a731df15")
-		)
-		(instances
-			(project "CDI_Module"
-				(path "/a4713233-3633-4d06-9186-8236551fb01a/0d28dddc-bb20-4ced-8840-72b43d7554f4"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Timer:NE555P")
 		(at 181.61 119.38 0)
 		(unit 1)
@@ -3925,7 +3878,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 194.31 138.43 0)
+		(at 205.74 139.7 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -3934,7 +3887,7 @@
 		(fields_autoplaced yes)
 		(uuid "a33a4a2c-5260-4bd5-9257-f746d885518c")
 		(property "Reference" "C1"
-			(at 198.12 137.16 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +3896,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 198.12 139.7 0)
+			(at 209.55 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +3905,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal"
-			(at 195.2752 142.24 0)
+			(at 206.7052 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +3914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 138.43 0)
+			(at 205.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +3923,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 138.43 0)
+			(at 205.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4236,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "3k3"
 			(at 208.28 126.9999 0)
 			(effects
 				(font

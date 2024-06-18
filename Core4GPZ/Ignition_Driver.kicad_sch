@@ -1678,6 +1678,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 182.88 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a998c15-8ef2-4d94-9b83-fceb996bd8e2")
+		(property "Reference" "D2"
+			(at 185.42 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 185.42 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "080f2162-2078-48f2-bcd0-5fb6b639e504")
+		)
+		(pin "1"
+			(uuid "c88cff7d-0dc1-4c8b-97e6-cbb2eb54f83f")
+		)
+		(instances
+			(project "Core4GPZ"
+				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_IGBT:IRG4PF50W")
 		(at 86.36 60.96 0)
 		(unit 1)
@@ -2042,94 +2130,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 182.88 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b50d6902-59c6-4904-ac6a-6b1a04b6b39f")
-		(property "Reference" "D2"
-			(at 185.42 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 185.42 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp"
-			(at 182.88 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 182.88 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 182.88 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "139ea0be-c144-4a6c-91d7-b0808025bb1a")
-		)
-		(pin "1"
-			(uuid "f1f325ac-fe18-45e8-bb8b-3dc8085a0ff5")
-		)
-		(instances
-			(project "Core4GPZ"
-				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 161.29 60.96 270)
 		(unit 1)
@@ -2225,7 +2225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 97.79 62.23 0)
 			(effects
 				(font
