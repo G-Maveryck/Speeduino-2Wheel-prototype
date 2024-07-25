@@ -653,18 +653,6 @@
 		(uuid "5186686b-2f8e-46d1-9864-0940132485a8")
 	)
 	(junction
-		(at 130.81 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56ef6d1e-b385-4f99-a7bd-b6c10c12e752")
-	)
-	(junction
-		(at 130.81 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a1f22fa-820f-47d3-b492-01e666701236")
-	)
-	(junction
 		(at 64.77 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -682,18 +670,6 @@
 		(color 0 0 0 0)
 		(uuid "6f5caa7d-60ec-4e97-b913-e1800f52ebf4")
 	)
-	(junction
-		(at 130.81 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d1e4b44-3a06-4f6a-b2ec-0b29749582ec")
-	)
-	(junction
-		(at 130.81 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3bba6e0-b7d9-4177-9334-044b1c177ef1")
-	)
 	(wire
 		(pts
 			(xy 48.26 59.69) (xy 55.88 59.69)
@@ -703,16 +679,6 @@
 			(type default)
 		)
 		(uuid "06cc4e22-7a40-4bdc-a020-48a1de8aa8b1")
-	)
-	(wire
-		(pts
-			(xy 130.81 52.07) (xy 134.62 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12d6c6c2-9a6f-4755-8c67-6130b86bcb56")
 	)
 	(wire
 		(pts
@@ -753,16 +719,6 @@
 			(type default)
 		)
 		(uuid "2f2e5233-59e0-463f-a8ab-6802a19ab8b6")
-	)
-	(wire
-		(pts
-			(xy 130.81 52.07) (xy 130.81 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f224075-7b06-4e61-aafd-75b115b4f6b6")
 	)
 	(wire
 		(pts
@@ -836,26 +792,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 55.88) (xy 130.81 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc1e968c-a365-4d2f-afe1-eb8936db522c")
-	)
-	(wire
-		(pts
-			(xy 130.81 44.45) (xy 130.81 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce09f138-52c5-4b3f-a6ba-14f0eea35159")
-	)
-	(wire
-		(pts
 			(xy 64.77 44.45) (xy 72.39 44.45)
 		)
 		(stroke
@@ -904,46 +840,6 @@
 		)
 		(uuid "e7cca0fa-62f0-45c2-a39c-abc93005d7e1")
 	)
-	(wire
-		(pts
-			(xy 130.81 55.88) (xy 134.62 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb6e5319-5e1d-4c2b-ad1f-20dd4e316306")
-	)
-	(wire
-		(pts
-			(xy 130.81 59.69) (xy 134.62 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb45fe6a-1fcb-43c3-a699-576950d83a6d")
-	)
-	(wire
-		(pts
-			(xy 130.81 48.26) (xy 134.62 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd314d4b-ffa0-4d72-b738-4929781e1dd6")
-	)
-	(wire
-		(pts
-			(xy 130.81 48.26) (xy 130.81 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff5c70e0-cb22-4c88-92e0-6dd022c6adde")
-	)
 	(text "Reference tension\nfor sensors"
 		(exclude_from_sim no)
 		(at 134.62 41.91 0)
@@ -966,28 +862,6 @@
 		)
 		(uuid "d18193c7-7173-4df6-897c-ff5ec153c5d8")
 	)
-	(global_label "FLEX_+5V"
-		(shape input)
-		(at 134.62 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "081d7285-5733-45e8-b91a-691dcf68408a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.9185 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "INJ_+12V"
 		(shape input)
 		(at 77.47 44.45 0)
@@ -1001,50 +875,6 @@
 		(uuid "5386596f-342a-48b4-96ce-f6b658298ae8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.4057 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLT_+5V"
-		(shape input)
-		(at 134.62 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6c0e5da8-cd87-4660-b51e-d2deda35b13c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.709 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IAT_+5V"
-		(shape input)
-		(at 134.62 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "810815ad-1a17-4618-a393-cd5feacbe6af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.1043 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,28 +906,6 @@
 			)
 		)
 	)
-	(global_label "O2WB_+5V"
-		(shape input)
-		(at 134.62 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1e3d663-0844-4068-af92-13648ba9773a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7047 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BIKE_+12V_SWITCHED_IN"
 		(shape input)
 		(at 48.26 44.45 180)
@@ -1120,7 +928,7 @@
 			)
 		)
 	)
-	(global_label "TPS_+5V"
+	(global_label "SNSR_+5V"
 		(shape input)
 		(at 134.62 44.45 0)
 		(fields_autoplaced yes)
@@ -1132,7 +940,7 @@
 		)
 		(uuid "cf0f8be4-1fd8-46dc-9787-70d66d237386")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.8904 44.45 0)
+			(at 147.4628 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
