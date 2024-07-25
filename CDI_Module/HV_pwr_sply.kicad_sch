@@ -2528,7 +2528,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 49.53) (xy 171.45 49.53)
+			(xy 170.18 49.53) (xy 180.34 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2725,16 +2725,6 @@
 			(type default)
 		)
 		(uuid "eddf588b-7134-4bcc-a355-3a00e68d52ad")
-	)
-	(wire
-		(pts
-			(xy 179.07 49.53) (xy 180.34 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb01e453-82c7-4e55-b97b-b3687e2e9dbc")
 	)
 	(wire
 		(pts
@@ -4008,74 +3998,6 @@
 			(project "CDI_Module"
 				(path "/a4713233-3633-4d06-9186-8236551fb01a/0d28dddc-bb20-4ced-8840-72b43d7554f4"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 175.26 49.53 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b52fb6f2-20b1-4d9c-8ffe-ac476ecbf6a7")
-		(property "Reference" "R9"
-			(at 175.26 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 175.26 52.324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 175.26 47.752 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 175.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "943e63d7-5b8e-4282-96a0-5622bc34d87d")
-		)
-		(pin "2"
-			(uuid "1288779a-1844-4585-8367-64007b41063e")
-		)
-		(instances
-			(project "CDI_Module"
-				(path "/a4713233-3633-4d06-9186-8236551fb01a/0d28dddc-bb20-4ced-8840-72b43d7554f4"
-					(reference "R9")
 					(unit 1)
 				)
 			)
