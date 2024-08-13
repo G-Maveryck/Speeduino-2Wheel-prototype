@@ -9874,7 +9874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18807024-2fe4-4207-a4ad-fe17e76b84e9")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 58.42 36.83 0)
 			(effects
 				(font
@@ -9928,7 +9928,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9943,7 +9943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51f1fa8f-9bf1-4daa-b36c-8948a9dfacc9")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 51.308 40.64 0)
 			(effects
 				(font
@@ -10013,7 +10013,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10028,7 +10028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73a06ccd-cabf-45f5-a439-c2ab39aeb237")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 51.308 50.8 0)
 			(effects
 				(font
@@ -10098,7 +10098,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10113,7 +10113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d151fee1-9d4e-4848-ae94-c499de875d25")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 51.308 71.12 0)
 			(effects
 				(font
@@ -10183,7 +10183,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10199,7 +10199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e746f1d8-f6ef-4357-bce2-ac87102bf045")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR07"
 			(at 55.88 35.56 0)
 			(effects
 				(font
@@ -10249,7 +10249,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "#PWR013")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10264,7 +10264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f36c5266-0a5e-44b3-8fbe-6318992c4166")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 51.308 60.706 0)
 			(effects
 				(font
@@ -10334,7 +10334,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)

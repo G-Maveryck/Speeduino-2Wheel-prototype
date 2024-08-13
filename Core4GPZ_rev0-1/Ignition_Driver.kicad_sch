@@ -1404,7 +1404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ac0fe6c-3db5-4d3a-bf5f-2c9be3585f99")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 76.2 54.61 90)
 			(effects
 				(font
@@ -1456,7 +1456,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1610,7 +1610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43193e52-0f21-4ade-a011-4bbd7c8c544e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 90.17 85.09 0)
 			(effects
 				(font
@@ -1660,7 +1660,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -1746,7 +1746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bb30ed9-febd-4be2-9a29-7fc4574ae8b8")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 101.6 60.9599 90)
 			(effects
 				(font
@@ -1818,7 +1818,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2120,7 +2120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c48ecbc0-d2c1-4304-948f-9ffc695012b6")
-		(property "Reference" "D2"
+		(property "Reference" "D6"
 			(at 186.69 60.9599 90)
 			(effects
 				(font
@@ -2192,7 +2192,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
-					(reference "D2")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2208,7 +2208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db89878b-021f-48c6-b215-47e840dcb786")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 161.29 54.61 90)
 			(effects
 				(font
@@ -2260,7 +2260,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
