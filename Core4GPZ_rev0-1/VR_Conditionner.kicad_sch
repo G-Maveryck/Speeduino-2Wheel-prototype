@@ -1634,6 +1634,16 @@
 		)
 		(uuid "ffd2b3a2-c4f3-4637-9254-4303d57b8e42")
 	)
+	(text "Schematics and PCB based on the Dropbear board, from the Speeduino project"
+		(exclude_from_sim no)
+		(at 242.824 163.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "55e1eb25-648a-40da-a776-1051ae04ce3c")
+	)
 	(text "Variable Reluctance\nSignal Conditionner"
 		(exclude_from_sim no)
 		(at 142.24 34.29 0)
