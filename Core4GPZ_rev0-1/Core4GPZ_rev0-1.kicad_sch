@@ -4243,47 +4243,28 @@
 				)
 			)
 		)
-		(symbol "Speeduino_Misc:MPX4250"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "Speeduino_Misc:MPXHZ6250AC6T1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 3.81 -3.81 0)
+				(at 0 8.89 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MPX4250"
-				(at -1.27 3.81 0)
+			(property "Value" "MPXHZ6250AC6T1"
+				(at 0 6.35 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Footprint" "IC_Automotive:MPXHZ6250AC6T1"
+				(at 0.508 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4291,42 +4272,40 @@
 					(hide yes)
 				)
 			)
-			(symbol "MPX4250_0_1"
-				(rectangle
-					(start -6.35 2.54)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
+			(property "Datasheet" ""
+				(at -1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
 			)
-			(symbol "MPX4250_1_1"
-				(pin output line
-					(at 12.7 0 180)
-					(length 7.62)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(property "Description" ""
+				(at -1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(hide yes)
+				)
+			)
+			(symbol "MPXHZ6250AC6T1_1_1"
+				(rectangle
+					(start -6.35 3.81)
+					(end 6.35 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
-				(pin power_in line
-					(at -13.97 -1.27 0)
-					(length 7.62)
-					(name "GND"
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "Vs"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4341,10 +4320,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -13.97 1.27 0)
-					(length 7.62)
-					(name "VCC"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4352,6 +4331,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7328,16 +7325,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 143.51) (xy 135.89 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00512423-8369-426f-b160-3bfcd2187955")
-	)
-	(wire
-		(pts
 			(xy 50.8 91.44) (xy 53.34 91.44)
 		)
 		(stroke
@@ -7368,7 +7355,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 142.24) (xy 138.43 143.51)
+			(xy 132.08 130.81) (xy 132.08 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7378,7 +7365,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 115.57) (xy 143.51 115.57)
+			(xy 140.97 115.57) (xy 143.51 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7445,6 +7432,16 @@
 			(type default)
 		)
 		(uuid "25667ea4-d6b6-478e-b399-f83218d7b71e")
+	)
+	(wire
+		(pts
+			(xy 120.65 115.57) (xy 120.65 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25782ced-468b-47c3-b23f-bb85823b641c")
 	)
 	(wire
 		(pts
@@ -7655,16 +7652,6 @@
 			(type default)
 		)
 		(uuid "5ba4a216-77ef-4aee-987a-aa11707ac929")
-	)
-	(wire
-		(pts
-			(xy 133.35 143.51) (xy 135.89 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c22089a-2312-4f78-887f-f34214ba64e2")
 	)
 	(wire
 		(pts
@@ -8118,6 +8105,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 123.19) (xy 140.97 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d151edba-8f18-44c8-b6ff-8c3a19d5023f")
+	)
+	(wire
+		(pts
 			(xy 50.8 86.36) (xy 53.34 86.36)
 		)
 		(stroke
@@ -8235,6 +8232,16 @@
 			(type default)
 		)
 		(uuid "fa9a3039-0ab3-40fa-9b94-5b282e26a202")
+	)
+	(wire
+		(pts
+			(xy 120.65 123.19) (xy 123.19 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd77c19-b2be-4878-b705-07d365433924")
 	)
 	(text "Inputs"
 		(exclude_from_sim no)
@@ -9376,7 +9383,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 143.51 0)
+		(at 132.08 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9385,7 +9392,7 @@
 		(fields_autoplaced yes)
 		(uuid "16e0f8cf-33ca-4ad6-9e75-1a0cbb0e2880")
 		(property "Reference" "#PWR05"
-			(at 138.43 149.86 0)
+			(at 132.08 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9394,7 +9401,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 148.59 0)
+			(at 132.08 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9402,7 +9409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 143.51 0)
+			(at 132.08 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9411,7 +9418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 143.51 0)
+			(at 132.08 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9420,7 +9427,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 143.51 0)
+			(at 132.08 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10028,75 +10035,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Speeduino_Misc:MPX4250")
-		(at 137.16 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "764960ed-9da6-488d-8a17-ae44cd75b1d7")
-		(property "Reference" "U3"
-			(at 140.97 128.27 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "MPX4250"
-			(at 143.51 128.27 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Misc:MPX4250"
-			(at 125.73 128.27 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 129.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f41acbec-0ec3-4bdf-8ccf-a113729c28e1")
-		)
-		(pin "2"
-			(uuid "fd0dca64-6be1-4224-a8d3-d9115c06abca")
-		)
-		(pin "3"
-			(uuid "bab031ec-cad5-4d41-8937-d298aa450afc")
-		)
-		(instances
-			(project "Core4GPZ_rev0-1"
-				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 129.54 86.36 0)
 		(unit 1)
@@ -10164,16 +10102,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 133.35 143.51 90)
+		(at 120.65 115.57 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c70df72-1ab3-4790-b636-b0383dcf3c4c")
 		(property "Reference" "#PWR03"
-			(at 137.16 143.51 0)
+			(at 120.65 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10182,7 +10120,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 129.54 143.51 90)
+			(at 118.11 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10191,7 +10129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 143.51 0)
+			(at 120.65 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,7 +10138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 143.51 0)
+			(at 120.65 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,7 +10147,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 143.51 0)
+			(at 120.65 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11016,6 +10954,77 @@
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
 					(reference "#SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Speeduino_Misc:MPXHZ6250AC6T1")
+		(at 132.08 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4efa4fc-a33f-4aaf-a1bc-347cfc479c2f")
+		(property "Reference" "U3"
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MPXHZ6250AC6T1"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "IC_Automotive:MPXHZ6250AC6T1"
+			(at 132.588 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b1a4be49-51c1-4f63-96e5-05d74541d471")
+		)
+		(pin "2"
+			(uuid "253a7b7b-185f-4e89-ac1d-ddd52782099b")
+		)
+		(pin "4"
+			(uuid "90fed9a2-2e23-44cc-97ad-554171de17fc")
+		)
+		(instances
+			(project ""
+				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
+					(reference "U3")
 					(unit 1)
 				)
 			)
