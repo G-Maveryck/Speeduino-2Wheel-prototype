@@ -22,8 +22,8 @@ The other CAD parts (eg. enclosure, boxes, etc..) are designed using Solidworks 
 # Specific parts
 For the purposes of this project, some parts have been selected as "default" part. This includes :
 - Main I/O connector : Molex CMC 48way  - Black (500762-0481 PCB Header / 64320-3311 Female connector)
-- MAP Sensor : MPC4250-AP from Freescale
-- Ignition Driver : build with FGP3440G2-F085 IGBT transistor from On-Semi.
+- MAP Sensor : MPXHZ6250-AC6T1 from Freescale
+- Ignition Coil Driver : build around FGP3440G2-F085 IGBT transistor from On-Semi.
 - VR Conditionners : Based on the "Dual VR Conditionner" from the official Speeduino project, with the MAX9926 chip. In this case, the circuit is directly welded on the board.
 
 # Licenses
