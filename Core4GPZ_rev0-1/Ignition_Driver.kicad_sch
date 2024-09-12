@@ -969,7 +969,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 60.96) (xy 154.94 64.77)
+			(xy 154.94 60.96) (xy 154.94 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1039,7 +1039,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 72.39) (xy 154.94 73.66)
+			(xy 154.94 71.12) (xy 154.94 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1420,7 +1420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 76.2 59.182 90)
 			(effects
 				(font
@@ -1463,6 +1463,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 69.85 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ee7d5d4-2f42-4535-addd-90cfb0fcca37")
+		(property "Reference" "R3"
+			(at 72.39 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 72.39 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 71.628 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32b9d9b4-c157-48c6-a4e0-fa60c52983bb")
+		)
+		(pin "1"
+			(uuid "0d097a66-60d3-444f-a89a-ef2bbdd268ea")
+		)
+		(instances
+			(project "Core4GPZ_rev0-1"
+				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 175.26 78.74 0)
 		(unit 1)
@@ -1472,7 +1542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dd0ae08-98c7-432f-bdf9-a25b1d204c51")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR014"
 			(at 175.26 85.09 0)
 			(effects
 				(font
@@ -1522,79 +1592,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NIGBT_GCE")
-		(at 172.72 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40c837c8-cceb-4d76-8839-6e8fbebad77e")
-		(property "Reference" "Q2"
-			(at 177.8 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FGP3440G2-F085"
-			(at 175.514 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 177.8 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-IGBT transistor, gate/collector/emitter"
-			(at 172.72 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39d4c74b-0b46-4290-bd79-6f3e9125c8e1")
-		)
-		(pin "3"
-			(uuid "a2332873-ff2e-4dc4-9560-6fb9b3d4828d")
-		)
-		(pin "1"
-			(uuid "f8662e3d-4f8c-489b-a7d8-323d355415fb")
-		)
-		(instances
-			(project "Core4GPZ_rev0-1"
-				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
-					(reference "Q2")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -1610,7 +1608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43193e52-0f21-4ade-a011-4bbd7c8c544e")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR013"
 			(at 90.17 85.09 0)
 			(effects
 				(font
@@ -1660,77 +1658,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 154.94 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "538059ef-d127-46ba-ae30-a64df4d40fc5")
-		(property "Reference" "R5"
-			(at 157.48 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 157.48 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 153.162 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "190ecf18-d244-4c94-b6ed-804fe9c8d5f0")
-		)
-		(pin "1"
-			(uuid "ae97efe3-2b37-4cb3-8cc7-1d08de47ea06")
-		)
-		(instances
-			(project "Core4GPZ_rev0-1"
-				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
-					(reference "R5")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -1825,17 +1753,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 69.85 67.31 0)
+		(lib_id "Device:Q_NIGBT_GCE")
+		(at 172.72 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75795232-f4e0-47d0-838b-373ee69940c6")
-		(property "Reference" "R3"
-			(at 72.39 66.0399 0)
+		(uuid "66165c5a-3153-4567-af46-3c4f301c383c")
+		(property "Reference" "Q2"
+			(at 177.8 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,8 +1770,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 72.39 68.5799 0)
+		(property "Value" "FGD3440G2-F085"
+			(at 175.514 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,8 +1779,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 68.072 67.31 90)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 177.8 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1789,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 67.31 0)
+			(at 172.72 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,8 +1797,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 69.85 67.31 0)
+		(property "Description" "N-IGBT transistor, gate/collector/emitter"
+			(at 172.72 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,15 +1807,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "dff152fc-4070-47f7-a146-1b0d7ea61d5a")
+			(uuid "e17e11cf-60e3-465b-a8d4-69e1a3f02f0e")
+		)
+		(pin "3"
+			(uuid "5e01fc05-7aa4-48bc-8838-c41a02ca8d15")
 		)
 		(pin "1"
-			(uuid "743a580c-2455-4d09-a16a-6acca6184e45")
+			(uuid "4ed1624c-c122-448c-a67c-af5dfc564d24")
 		)
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
-					(reference "R3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1912,7 +1842,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FGP3440G2-F085"
+		(property "Value" "FGD3440G2-F085"
 			(at 90.424 67.31 0)
 			(effects
 				(font
@@ -1921,7 +1851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 92.71 58.42 0)
 			(effects
 				(font
@@ -1961,6 +1891,74 @@
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 161.29 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd7e3a1-4b7f-4539-87fe-b6fbad14bff0")
+		(property "Reference" "R6"
+			(at 161.29 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 161.29 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 161.29 59.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5216d96f-f5e3-480e-a8c0-0b43ba14abec")
+		)
+		(pin "1"
+			(uuid "10162591-5716-4020-ad26-83f251561c5d")
+		)
+		(instances
+			(project "Core4GPZ_rev0-1"
+				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2111,6 +2109,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 154.94 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7dfa2bd-ff33-4c55-bcab-35bb471c9603")
+		(property "Reference" "R5"
+			(at 157.48 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 157.48 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 156.718 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddc59451-b9fd-4388-9693-864b1755c9e4")
+		)
+		(pin "1"
+			(uuid "af38df78-364f-4716-a6bc-eb2ec659cd05")
+		)
+		(instances
+			(project "Core4GPZ_rev0-1"
+				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 184.15 62.23 270)
 		(unit 1)
@@ -2193,74 +2261,6 @@
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 161.29 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db89878b-021f-48c6-b215-47e840dcb786")
-		(property "Reference" "R6"
-			(at 161.29 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 161.29 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 161.29 59.182 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fc53eb27-b1fe-44d7-a8bf-3f54395f82e7")
-		)
-		(pin "1"
-			(uuid "209cabe8-328b-415e-82c2-8afbea03c55d")
-		)
-		(instances
-			(project "Core4GPZ_rev0-1"
-				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/d5427090-fd08-4b35-ae6e-bc2a7b0d4087"
-					(reference "R6")
 					(unit 1)
 				)
 			)
