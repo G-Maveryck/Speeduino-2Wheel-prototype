@@ -17,7 +17,7 @@ In this early state (v0.1), the ignitions drivers, VR Conditionner and MAP Senso
 
 # Workflow & Tools
 The electronics parts (PCB and Schematics) are designed using KiCad EDA 8.0.
-The other CAD parts (eg. enclosure, boxes, etc..) are designed using Solidworks 2022, and additionnaly distributed in .STEP file format.
+The other CAD parts (eg. enclosure, boxes, etc..) are designed using Solidworks 2023, and additionnaly distributed in .STEP file format.
 
 # Specific parts
 For the purposes of this project, some parts have been selected as "default" part. This includes :
