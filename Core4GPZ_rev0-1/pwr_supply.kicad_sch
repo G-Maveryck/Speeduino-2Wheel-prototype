@@ -1213,12 +1213,11 @@
 			)
 		)
 		(property "Voltage" "24v"
-			(at 74.93 52.07 0)
+			(at 77.216 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
