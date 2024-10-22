@@ -591,15 +591,11 @@
     ],
     [
       "47dee9fe-f537-47a7-b917-fe922e75e357",
-      "Safety"
+      "Inputs"
     ],
     [
       "d5427090-fd08-4b35-ae6e-bc2a7b0d4087",
-      "Ignition_Driver"
-    ],
-    [
-      "daf77dd8-6c93-40bb-b740-2abe26fd61d2",
-      "Power Supply"
+      "Output Drivers"
     ],
     [
       "eddb9d71-e77a-4517-903c-0f4defe5abdd",
