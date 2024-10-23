@@ -10425,7 +10425,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 31.75 146.05 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -10468,15 +10468,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 31.75 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 31.75 146.05 0)
 			(effects
 				(font
@@ -10630,7 +10621,7 @@
 		(lib_id "Graphic:SYM_Arrow_Large")
 		(at 31.75 184.15 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -10673,15 +10664,6 @@
 			)
 		)
 		(property "Description" "Filled arrow, 300mil"
-			(at 31.75 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 31.75 184.15 0)
 			(effects
 				(font
