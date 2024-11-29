@@ -26,6 +26,7 @@ Two different ignition drivers are planned : Classic IGBT transistor driver for 
 The electronics parts (PCB and Schematics) are designed using KiCad EDA 8.0.
 A specific Kicad symbols and footprint library is made for this project, and can be found on this repo (see : "KiCad_Library" directory)
 If the library does not relink automatically, you can add it manually with "KiCad > Preferences > Configure symbols/Footprint library > Add existing library" )
+
 The other CAD parts (eg. enclosure, boxes, etc..) are designed using Solidworks 2023, and additionnaly distributed in .STEP and .STL file format.
 
 # Specific parts
