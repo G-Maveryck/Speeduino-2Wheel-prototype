@@ -1,10 +1,14 @@
 # What is this ?
 This project aim to build an Open-Source Engine Control Unit (aka ECU), fully programmable, accessible and modifiable, specificaly designed for motorcycles. It is still in "protoype" stage.
-The goal is to end with a solution suited retro-fit purposes : Lowering fuel consumption, pollution, and incearing performances.
+The goal is to end with a solution suited for retro-fit purposes : Lowering fuel consumption, pollution, and increased performances.
+
+![alt text](https://github.com/G-Maveryck/Speeduino-2Wheel-prototype/blob/main/Core4GPZ_rev0-1/Core4GPZ_rev0-1_Preview02.jpg?raw=true)
 
 It's build around the DIY-EFI's CORE4 board, with a custom "Daughter board", and use the Speeduino firmware.
 The CORE4 board is current choice for it's compact footprint, and fully featured board.
 The Speeduino firmware can be found on it's own repo (See Licenses part for more informations.
+
+![alt text](https://github.com/G-Maveryck/Speeduino-2Wheel-prototype/blob/main/Core4GPZ_rev0-1/Core4GPZ_rev0-1_Preview01.jpg?raw=true)
 
 # Electronics and Hardware parts
 As the CORE4 is kind of a "all-in-one" solution, this current project focuses on building a "Daughter board" to "host" the CORE4.
@@ -15,9 +19,12 @@ It include a proper automotive connector, routing the sensors signals to the pin
 
 In this early state (v0.1), the ignitions drivers, VR Conditionner and MAP Sensor are mounted directly on the board.
 
+An aditional project can be found in the repository, aiming to build an external ignition driver. This is currently not finished, but is on the roadmap. 
+Two different ignition drivers are planned : Classic IGBT transistor driver for coils, and a CDI Module (Capacitive Discharge Ignition).
+
 # Workflow & Tools
 The electronics parts (PCB and Schematics) are designed using KiCad EDA 8.0.
-The other CAD parts (eg. enclosure, boxes, etc..) are designed using Solidworks 2023, and additionnaly distributed in .STEP file format.
+The other CAD parts (eg. enclosure, boxes, etc..) are designed using Solidworks 2023, and additionnaly distributed in .STEP and .STL file format.
 
 # Specific parts
 For the purposes of this project, some parts have been selected as "default" part. This includes :
