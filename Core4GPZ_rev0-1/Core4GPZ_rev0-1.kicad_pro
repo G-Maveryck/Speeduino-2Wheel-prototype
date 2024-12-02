@@ -479,7 +479,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "Core4GPZ_rev0-1_BOM_131124.csv",
+    "bom_export_filename": "Core4GPZ_rev0-1_BOM_021224.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -600,6 +600,48 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer part Number",
+          "name": "Manufacturer part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Plug part number",
+          "name": "Plug part number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Shop link",
+          "name": "Shop link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Documentation 2",
+          "name": "Documentation 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_part",
+          "name": "Manufacturer_part",
           "show": false
         }
       ],

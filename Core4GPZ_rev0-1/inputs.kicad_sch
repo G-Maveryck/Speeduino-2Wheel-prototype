@@ -13539,7 +13539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bab93a3-7be7-4e2d-af6c-c8ff9dfa4431")
-		(property "Reference" "JP6"
+		(property "Reference" "JP2"
 			(at 254.254 55.88 0)
 			(effects
 				(font
@@ -13592,7 +13592,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "JP6")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -13677,7 +13677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18807024-2fe4-4207-a4ad-fe17e76b84e9")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 58.42 36.83 0)
 			(effects
 				(font
@@ -13695,7 +13695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 54.102 38.1 90)
 			(effects
 				(font
@@ -13722,6 +13722,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Yageo"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part" "AC0603FR-7W100KL"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.fr/ProductDetail/YAGEO/AC0603FR-7W100KL"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "124a2425-323b-4c13-b21c-248fb547e3b8")
 		)
@@ -13731,7 +13758,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -13747,7 +13774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30f1ce87-6610-4fcb-9aae-b8029d779ac7")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR014"
 			(at 226.06 78.74 0)
 			(effects
 				(font
@@ -13797,7 +13824,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "#PWR025")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13813,22 +13840,22 @@
 		(dnp no)
 		(uuid "51f1fa8f-9bf1-4daa-b36c-8948a9dfacc9")
 		(property "Reference" "D1"
-			(at 51.308 40.64 0)
+			(at 48.514 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 51.308 43.18 0)
+		(property "Value" "1N4448WX-TP"
+			(at 47.498 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 48.26 44.45 0)
 			(effects
 				(font
@@ -13873,6 +13900,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Micro Commercial Components (MCC)"
+			(at 48.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part" "1N4448WX-TP "
+			(at 48.26 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.fr/ProductDetail/Micro-Commercial-Components-MCC/1N4448WX-TP"
+			(at 48.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "df28b81f-0c10-4dc4-a69f-e75ee632e654")
 		)
@@ -13898,7 +13952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f4e7f1b-91fc-4a4c-888f-08ec544cce72")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR016"
 			(at 240.03 78.74 0)
 			(effects
 				(font
@@ -13948,7 +14002,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "#PWR027")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -14040,7 +14094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f8d4b67-972e-4892-9aa3-33176cd1c339")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR015"
 			(at 240.03 54.61 0)
 			(effects
 				(font
@@ -14091,7 +14145,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "#PWR026")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -14177,7 +14231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4f7aa3c-7b51-455c-849e-4b3f52c0407c")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR012"
 			(at 200.66 50.8 0)
 			(effects
 				(font
@@ -14227,7 +14281,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "#PWR023")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14308,7 +14362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7664c9e-c272-4056-a0f0-1bde723eb9d5")
-		(property "Reference" "R11"
+		(property "Reference" "R3"
 			(at 228.6 50.7999 0)
 			(effects
 				(font
@@ -14353,6 +14407,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Yageo"
+			(at 226.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part" "AC0805FR-07300KL"
+			(at 226.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.fr/ProductDetail/603-AC0805FR-07300KL"
+			(at 226.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a92aef76-a96e-4dbc-b67e-291759a16c6b")
 		)
@@ -14362,7 +14443,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "R11")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -14448,7 +14529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6e4164b-5a6e-47b7-b28f-f7aaa07455ce")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR013"
 			(at 208.28 25.4 0)
 			(effects
 				(font
@@ -14499,7 +14580,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "#PWR024")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -14514,7 +14595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca09c4bf-13f2-4cdf-88d7-6131db725b0d")
-		(property "Reference" "JP5"
+		(property "Reference" "JP1"
 			(at 233.934 42.418 0)
 			(effects
 				(font
@@ -14570,7 +14651,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "JP5")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -14586,7 +14667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d07043f1-1615-49a6-b187-1571baf42653")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR011"
 			(at 199.39 142.24 0)
 			(effects
 				(font
@@ -14636,92 +14717,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 48.26 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d151fee1-9d4e-4848-ae94-c499de875d25")
-		(property "Reference" "D3"
-			(at 51.308 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 51.308 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 48.26 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 48.26 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 48.26 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1199408c-e89b-43c6-8797-8c07d0a81224")
-		)
-		(pin "1"
-			(uuid "99da5f3c-6493-4553-b05c-be9f36f9d237")
-		)
-		(instances
-			(project "Core4GPZ_rev0-1"
-				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "D3")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14814,7 +14810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5cd4957-fcb9-4367-918e-4d5097b36c96")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR010"
 			(at 199.39 114.3 0)
 			(effects
 				(font
@@ -14864,7 +14860,119 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "#PWR015")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 48.26 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e048bfff-652e-4c4f-b04d-ec6295fc1253")
+		(property "Reference" "D3"
+			(at 48.514 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4448WX-TP"
+			(at 47.498 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Micro Commercial Components (MCC)"
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part" "1N4448WX-TP "
+			(at 48.26 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.fr/ProductDetail/Micro-Commercial-Components-MCC/1N4448WX-TP"
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e91cc672-c944-4f0b-b095-09a7e25a3c5b")
+		)
+		(pin "1"
+			(uuid "13bbb6d0-966a-44da-b962-dff66c34980b")
+		)
+		(instances
+			(project "Core4GPZ_rev0-1"
+				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -14880,7 +14988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e746f1d8-f6ef-4357-bce2-ac87102bf045")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 55.88 35.56 0)
 			(effects
 				(font
@@ -14930,7 +15038,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14944,24 +15052,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f36c5266-0a5e-44b3-8fbe-6318992c4166")
+		(uuid "f8d0a628-9a39-41db-9a0f-6799dbcc97bb")
 		(property "Reference" "D2"
-			(at 51.308 50.546 0)
+			(at 48.514 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 51.308 53.086 0)
+		(property "Value" "1N4448WX-TP"
+			(at 47.498 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 48.26 54.61 0)
 			(effects
 				(font
@@ -15006,11 +15114,38 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Micro Commercial Components (MCC)"
+			(at 48.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part" "1N4448WX-TP "
+			(at 48.26 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.fr/ProductDetail/Micro-Commercial-Components-MCC/1N4448WX-TP"
+			(at 48.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "e56cd551-171e-45f7-ba62-2d6fa127f76c")
+			(uuid "0acb83cc-7e49-4d91-841b-8e29d0f24ce6")
 		)
 		(pin "1"
-			(uuid "0bccc78f-edfd-472c-9f0a-5cc8ae514b4a")
+			(uuid "0cc70e4b-a53b-4f4e-aac0-58babeffc2ff")
 		)
 		(instances
 			(project "Core4GPZ_rev0-1"
@@ -15031,7 +15166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f946a705-79e8-4eb7-92dd-37ba93afa95f")
-		(property "Reference" "R12"
+		(property "Reference" "R4"
 			(at 228.6 63.4999 0)
 			(effects
 				(font
@@ -15076,6 +15211,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Yageo"
+			(at 226.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part" "AC0805FR-07665KL "
+			(at 226.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.fr/ProductDetail/YAGEO/AC0805FR-07665KL"
+			(at 226.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7b3dc21b-9766-452b-9c4d-b48bc4af7478")
 		)
@@ -15085,7 +15247,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610/47dee9fe-f537-47a7-b917-fe922e75e357"
-					(reference "R12")
+					(reference "R4")
 					(unit 1)
 				)
 			)

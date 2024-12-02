@@ -5,452 +5,7 @@
 	(uuid "ac28f42d-34b3-4fcc-84dd-ab6106f99610")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Graphic:Logo_Open_Hardware_Small"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "#SYM"
-				(at 0 6.985 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "Logo_Open_Hardware_Small"
-				(at 0 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Open Hardware logo, small"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Logo"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Logo_Open_Hardware_Small_0_1"
-				(polyline
-					(pts
-						(xy 3.3528 -4.3434) (xy 3.302 -4.318) (xy 3.175 -4.2418) (xy 2.9972 -4.1148) (xy 2.7686 -3.9624)
-						(xy 2.54 -3.81) (xy 2.3622 -3.7084) (xy 2.2352 -3.6068) (xy 2.1844 -3.5814) (xy 2.159 -3.6068)
-						(xy 2.0574 -3.6576) (xy 1.905 -3.7338) (xy 1.8034 -3.7846) (xy 1.6764 -3.8354) (xy 1.6002 -3.8354)
-						(xy 1.6002 -3.8354) (xy 1.5494 -3.7338) (xy 1.4732 -3.5306) (xy 1.3462 -3.302) (xy 1.2446 -3.0226)
-						(xy 1.1176 -2.7178) (xy 0.9652 -2.413) (xy 0.8636 -2.1082) (xy 0.7366 -1.8288) (xy 0.6604 -1.6256)
-						(xy 0.6096 -1.4732) (xy 0.5842 -1.397) (xy 0.5842 -1.397) (xy 0.6604 -1.3208) (xy 0.7874 -1.2446)
-						(xy 1.0414 -1.016) (xy 1.2954 -0.6858) (xy 1.4478 -0.3302) (xy 1.524 0.0762) (xy 1.4732 0.4572)
-						(xy 1.3208 0.8128) (xy 1.0668 1.143) (xy 0.762 1.3716) (xy 0.4064 1.524) (xy 0 1.5748) (xy -0.381 1.5494)
-						(xy -0.7366 1.397) (xy -1.0668 1.143) (xy -1.2192 0.9906) (xy -1.397 0.6604) (xy -1.524 0.3048)
-						(xy -1.524 0.2286) (xy -1.4986 -0.1778) (xy -1.397 -0.5334) (xy -1.1938 -0.8636) (xy -0.9144 -1.143)
-						(xy -0.8636 -1.1684) (xy -0.7366 -1.27) (xy -0.635 -1.3462) (xy -0.5842 -1.397) (xy -1.0668 -2.5908)
-						(xy -1.143 -2.794) (xy -1.2954 -3.1242) (xy -1.397 -3.4036) (xy -1.4986 -3.6322) (xy -1.5748 -3.7846)
-						(xy -1.6002 -3.8354) (xy -1.6002 -3.8354) (xy -1.651 -3.8354) (xy -1.7272 -3.81) (xy -1.905 -3.7338)
-						(xy -2.0066 -3.683) (xy -2.1336 -3.6068) (xy -2.2098 -3.5814) (xy -2.2606 -3.6068) (xy -2.3622 -3.683)
-						(xy -2.54 -3.81) (xy -2.7686 -3.9624) (xy -2.9718 -4.0894) (xy -3.1496 -4.2164) (xy -3.302 -4.318)
-						(xy -3.3528 -4.3434) (xy -3.3782 -4.3434) (xy -3.429 -4.318) (xy -3.5306 -4.2164) (xy -3.7084 -4.064)
-						(xy -3.937 -3.8354) (xy -3.9624 -3.81) (xy -4.1656 -3.6068) (xy -4.318 -3.4544) (xy -4.4196 -3.3274)
-						(xy -4.445 -3.2766) (xy -4.445 -3.2766) (xy -4.4196 -3.2258) (xy -4.318 -3.0734) (xy -4.2164 -2.8956)
-						(xy -4.064 -2.667) (xy -3.6576 -2.0828) (xy -3.8862 -1.5494) (xy -3.937 -1.3716) (xy -4.0386 -1.1684)
-						(xy -4.0894 -1.0414) (xy -4.1148 -0.9652) (xy -4.191 -0.9398) (xy -4.318 -0.9144) (xy -4.5466 -0.8636)
-						(xy -4.8006 -0.8128) (xy -5.0546 -0.7874) (xy -5.2578 -0.7366) (xy -5.4356 -0.7112) (xy -5.5118 -0.6858)
-						(xy -5.5118 -0.6858) (xy -5.5372 -0.635) (xy -5.5372 -0.5588) (xy -5.5372 -0.4318) (xy -5.5626 -0.2286)
-						(xy -5.5626 0.0762) (xy -5.5626 0.127) (xy -5.5372 0.4064) (xy -5.5372 0.635) (xy -5.5372 0.762)
-						(xy -5.5372 0.8382) (xy -5.5372 0.8382) (xy -5.461 0.8382) (xy -5.3086 0.889) (xy -5.08 0.9144)
-						(xy -4.826 0.9652) (xy -4.8006 0.9906) (xy -4.5466 1.0414) (xy -4.318 1.0668) (xy -4.1656 1.1176)
-						(xy -4.0894 1.143) (xy -4.0894 1.143) (xy -4.0386 1.2446) (xy -3.9624 1.4224) (xy -3.8608 1.6256)
-						(xy -3.7846 1.8288) (xy -3.7084 2.0066) (xy -3.6576 2.159) (xy -3.6322 2.2098) (xy -3.6322 2.2098)
-						(xy -3.683 2.286) (xy -3.7592 2.413) (xy -3.8862 2.5908) (xy -4.064 2.8194) (xy -4.064 2.8448)
-						(xy -4.2164 3.0734) (xy -4.3434 3.2512) (xy -4.4196 3.3782) (xy -4.445 3.4544) (xy -4.445 3.4544)
-						(xy -4.3942 3.5052) (xy -4.2926 3.6322) (xy -4.1148 3.81) (xy -3.937 4.0132) (xy -3.8608 4.064)
-						(xy -3.6576 4.2926) (xy -3.5052 4.4196) (xy -3.4036 4.4958) (xy -3.3528 4.5212) (xy -3.3528 4.5212)
-						(xy -3.302 4.4704) (xy -3.1496 4.3688) (xy -2.9718 4.2418) (xy -2.7432 4.0894) (xy -2.7178 4.0894)
-						(xy -2.4892 3.937) (xy -2.3114 3.81) (xy -2.1844 3.7084) (xy -2.1336 3.683) (xy -2.1082 3.683)
-						(xy -2.032 3.7084) (xy -1.8542 3.7592) (xy -1.6764 3.8354) (xy -1.4732 3.937) (xy -1.27 4.0132)
-						(xy -1.143 4.064) (xy -1.0668 4.1148) (xy -1.0668 4.1148) (xy -1.0414 4.191) (xy -1.016 4.3434)
-						(xy -0.9652 4.572) (xy -0.9144 4.8514) (xy -0.889 4.9022) (xy -0.8382 5.1562) (xy -0.8128 5.3848)
-						(xy -0.7874 5.5372) (xy -0.762 5.588) (xy -0.7112 5.6134) (xy -0.5842 5.6134) (xy -0.4064 5.6134)
-						(xy -0.1524 5.6134) (xy 0.0762 5.6134) (xy 0.3302 5.6134) (xy 0.5334 5.6134) (xy 0.6858 5.588)
-						(xy 0.7366 5.588) (xy 0.7366 5.588) (xy 0.762 5.5118) (xy 0.8128 5.334) (xy 0.8382 5.1054) (xy 0.9144 4.826)
-						(xy 0.9144 4.7752) (xy 0.9652 4.5212) (xy 1.016 4.2926) (xy 1.0414 4.1402) (xy 1.0668 4.0894)
-						(xy 1.0668 4.0894) (xy 1.1938 4.0386) (xy 1.3716 3.9624) (xy 1.5748 3.8608) (xy 2.0828 3.6576)
-						(xy 2.7178 4.0894) (xy 2.7686 4.1402) (xy 2.9972 4.2926) (xy 3.175 4.4196) (xy 3.302 4.4958) (xy 3.3782 4.5212)
-						(xy 3.3782 4.5212) (xy 3.429 4.4704) (xy 3.556 4.3434) (xy 3.7338 4.191) (xy 3.9116 3.9878) (xy 4.064 3.8354)
-						(xy 4.2418 3.6576) (xy 4.3434 3.556) (xy 4.4196 3.4798) (xy 4.4196 3.429) (xy 4.4196 3.4036) (xy 4.3942 3.3274)
-						(xy 4.2926 3.2004) (xy 4.1656 2.9972) (xy 4.0132 2.794) (xy 3.8862 2.5908) (xy 3.7592 2.3876)
-						(xy 3.6576 2.2352) (xy 3.6322 2.159) (xy 3.6322 2.1336) (xy 3.683 2.0066) (xy 3.7592 1.8288) (xy 3.8608 1.6002)
-						(xy 4.064 1.1176) (xy 4.3942 1.0414) (xy 4.5974 1.016) (xy 4.8768 0.9652) (xy 5.1308 0.9144) (xy 5.5372 0.8382)
-						(xy 5.5626 -0.6604) (xy 5.4864 -0.6858) (xy 5.4356 -0.6858) (xy 5.2832 -0.7366) (xy 5.0546 -0.762)
-						(xy 4.8006 -0.8128) (xy 4.5974 -0.8636) (xy 4.3688 -0.9144) (xy 4.2164 -0.9398) (xy 4.1402 -0.9398)
-						(xy 4.1148 -0.9652) (xy 4.064 -1.0668) (xy 3.9878 -1.2446) (xy 3.9116 -1.4478) (xy 3.81 -1.651)
-						(xy 3.7338 -1.8542) (xy 3.683 -2.0066) (xy 3.6576 -2.0828) (xy 3.683 -2.1336) (xy 3.7846 -2.2606)
-						(xy 3.8862 -2.4638) (xy 4.0386 -2.667) (xy 4.191 -2.8956) (xy 4.318 -3.0734) (xy 4.3942 -3.2004)
-						(xy 4.445 -3.2766) (xy 4.4196 -3.3274) (xy 4.3434 -3.429) (xy 4.1656 -3.5814) (xy 3.937 -3.8354)
-						(xy 3.8862 -3.8608) (xy 3.683 -4.064) (xy 3.5306 -4.2164) (xy 3.4036 -4.318) (xy 3.3528 -4.3434)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-		)
-		(symbol "Graphic:SYM_Arrow_Large"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "#SYM"
-				(at 0 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "SYM_Arrow_Large"
-				(at 0 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Filled arrow, 300mil"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "symbol arrow"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SYM_Arrow_Large_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 1.27 -0.762) (xy 1.27 0.762) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-		)
-		(symbol "Graphic:SYM_Flash_Small"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "#SYM"
-				(at -2.286 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "SYM_Flash_Small"
-				(at 2.286 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -0.635 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 10.16 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Flash symbol, small"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "graphic symbol flash VAC 220VAC 110VAC power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SYM_Flash_Small_0_1"
-				(polyline
-					(pts
-						(xy 0.508 -1.016) (xy -1.016 -0.762) (xy -1.016 -3.048) (xy 0.508 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 3.81) (xy 0.508 3.81) (xy -0.254 1.524) (xy 1.27 2.286) (xy 0 -1.016) (xy -0.508 -0.762)
-						(xy 0.254 1.016) (xy -1.27 0.254) (xy -0.254 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-		)
-		(symbol "Speeduino_Bike_Prototype:MPXHZ6250AC6T1"
+		(symbol "Bike_Prototype_LIB:MPXHZ6250AC6T1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -470,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Speeduino_Bike_Prototype:MPXHZ6250AC6T1"
+			(property "Footprint" "Bike_Prototype_LIB:MPXHZ6250AC6T1"
 				(at 0.508 -11.43 0)
 				(effects
 					(font
@@ -479,13 +34,12 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -1.27 -2.54 0)
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MPXH6250A.pdf"
+				(at 1.524 -14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
@@ -565,7 +119,7 @@
 				)
 			)
 		)
-		(symbol "Speeduino_Bike_Prototype:Molex_Conn_48_Male_Black"
+		(symbol "Bike_Prototype_LIB:Molex_Conn_48_Male_Black"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -585,7 +139,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Speeduino_Bike_Prototype:Molex_CMC_48pin_Male_Black"
+			(property "Footprint" "Bike_Prototype_LIB:Molex_CMC_48pin_Male_Black"
 				(at 0.762 15.494 0)
 				(effects
 					(font
@@ -594,8 +148,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 1.27 1.27 0)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5007620481"
+				(at 2.032 18.288 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -610,6 +164,22 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Manufacturer part Number" "500762-0481"
+				(at 1.016 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Plug part number" "64320-3311"
+				(at 0.762 -22.606 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_locked" ""
@@ -1548,7 +1118,7 @@
 				)
 			)
 		)
-		(symbol "Speeduino_Bike_Prototype:core4_rev1"
+		(symbol "Bike_Prototype_LIB:core4_rev1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1571,8 +1141,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Speeduino_Bike_Prototype:Core4"
-				(at 21.59 10.16 90)
+			(property "Footprint" "Bike_Prototype_LIB:Core4"
+				(at 0.254 -22.352 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1580,8 +1150,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 21.59 10.16 90)
+			(property "Datasheet" "https://diy-efi.co.uk/knowledge-base/core4-universal-getting-started"
+				(at 3.81 -34.544 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1589,13 +1159,29 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "Speeduino compatible board, with the arduino and Speeduino board, all in one. 4 Channel Injector and Ignition, various inputs and outputs."
+				(at 5.588 -30.734 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Documentation 2" "https://diy-efi.co.uk/resources"
+				(at -1.27 -38.608 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Shop link" "https://diy-efi.co.uk/product/core4-module"
+				(at -0.508 -41.402 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_locked" ""
@@ -2742,6 +2328,451 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Graphic:Logo_Open_Hardware_Small"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Logo_Open_Hardware_Small"
+				(at 0 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Open Hardware logo, small"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Logo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Logo_Open_Hardware_Small_0_1"
+				(polyline
+					(pts
+						(xy 3.3528 -4.3434) (xy 3.302 -4.318) (xy 3.175 -4.2418) (xy 2.9972 -4.1148) (xy 2.7686 -3.9624)
+						(xy 2.54 -3.81) (xy 2.3622 -3.7084) (xy 2.2352 -3.6068) (xy 2.1844 -3.5814) (xy 2.159 -3.6068)
+						(xy 2.0574 -3.6576) (xy 1.905 -3.7338) (xy 1.8034 -3.7846) (xy 1.6764 -3.8354) (xy 1.6002 -3.8354)
+						(xy 1.6002 -3.8354) (xy 1.5494 -3.7338) (xy 1.4732 -3.5306) (xy 1.3462 -3.302) (xy 1.2446 -3.0226)
+						(xy 1.1176 -2.7178) (xy 0.9652 -2.413) (xy 0.8636 -2.1082) (xy 0.7366 -1.8288) (xy 0.6604 -1.6256)
+						(xy 0.6096 -1.4732) (xy 0.5842 -1.397) (xy 0.5842 -1.397) (xy 0.6604 -1.3208) (xy 0.7874 -1.2446)
+						(xy 1.0414 -1.016) (xy 1.2954 -0.6858) (xy 1.4478 -0.3302) (xy 1.524 0.0762) (xy 1.4732 0.4572)
+						(xy 1.3208 0.8128) (xy 1.0668 1.143) (xy 0.762 1.3716) (xy 0.4064 1.524) (xy 0 1.5748) (xy -0.381 1.5494)
+						(xy -0.7366 1.397) (xy -1.0668 1.143) (xy -1.2192 0.9906) (xy -1.397 0.6604) (xy -1.524 0.3048)
+						(xy -1.524 0.2286) (xy -1.4986 -0.1778) (xy -1.397 -0.5334) (xy -1.1938 -0.8636) (xy -0.9144 -1.143)
+						(xy -0.8636 -1.1684) (xy -0.7366 -1.27) (xy -0.635 -1.3462) (xy -0.5842 -1.397) (xy -1.0668 -2.5908)
+						(xy -1.143 -2.794) (xy -1.2954 -3.1242) (xy -1.397 -3.4036) (xy -1.4986 -3.6322) (xy -1.5748 -3.7846)
+						(xy -1.6002 -3.8354) (xy -1.6002 -3.8354) (xy -1.651 -3.8354) (xy -1.7272 -3.81) (xy -1.905 -3.7338)
+						(xy -2.0066 -3.683) (xy -2.1336 -3.6068) (xy -2.2098 -3.5814) (xy -2.2606 -3.6068) (xy -2.3622 -3.683)
+						(xy -2.54 -3.81) (xy -2.7686 -3.9624) (xy -2.9718 -4.0894) (xy -3.1496 -4.2164) (xy -3.302 -4.318)
+						(xy -3.3528 -4.3434) (xy -3.3782 -4.3434) (xy -3.429 -4.318) (xy -3.5306 -4.2164) (xy -3.7084 -4.064)
+						(xy -3.937 -3.8354) (xy -3.9624 -3.81) (xy -4.1656 -3.6068) (xy -4.318 -3.4544) (xy -4.4196 -3.3274)
+						(xy -4.445 -3.2766) (xy -4.445 -3.2766) (xy -4.4196 -3.2258) (xy -4.318 -3.0734) (xy -4.2164 -2.8956)
+						(xy -4.064 -2.667) (xy -3.6576 -2.0828) (xy -3.8862 -1.5494) (xy -3.937 -1.3716) (xy -4.0386 -1.1684)
+						(xy -4.0894 -1.0414) (xy -4.1148 -0.9652) (xy -4.191 -0.9398) (xy -4.318 -0.9144) (xy -4.5466 -0.8636)
+						(xy -4.8006 -0.8128) (xy -5.0546 -0.7874) (xy -5.2578 -0.7366) (xy -5.4356 -0.7112) (xy -5.5118 -0.6858)
+						(xy -5.5118 -0.6858) (xy -5.5372 -0.635) (xy -5.5372 -0.5588) (xy -5.5372 -0.4318) (xy -5.5626 -0.2286)
+						(xy -5.5626 0.0762) (xy -5.5626 0.127) (xy -5.5372 0.4064) (xy -5.5372 0.635) (xy -5.5372 0.762)
+						(xy -5.5372 0.8382) (xy -5.5372 0.8382) (xy -5.461 0.8382) (xy -5.3086 0.889) (xy -5.08 0.9144)
+						(xy -4.826 0.9652) (xy -4.8006 0.9906) (xy -4.5466 1.0414) (xy -4.318 1.0668) (xy -4.1656 1.1176)
+						(xy -4.0894 1.143) (xy -4.0894 1.143) (xy -4.0386 1.2446) (xy -3.9624 1.4224) (xy -3.8608 1.6256)
+						(xy -3.7846 1.8288) (xy -3.7084 2.0066) (xy -3.6576 2.159) (xy -3.6322 2.2098) (xy -3.6322 2.2098)
+						(xy -3.683 2.286) (xy -3.7592 2.413) (xy -3.8862 2.5908) (xy -4.064 2.8194) (xy -4.064 2.8448)
+						(xy -4.2164 3.0734) (xy -4.3434 3.2512) (xy -4.4196 3.3782) (xy -4.445 3.4544) (xy -4.445 3.4544)
+						(xy -4.3942 3.5052) (xy -4.2926 3.6322) (xy -4.1148 3.81) (xy -3.937 4.0132) (xy -3.8608 4.064)
+						(xy -3.6576 4.2926) (xy -3.5052 4.4196) (xy -3.4036 4.4958) (xy -3.3528 4.5212) (xy -3.3528 4.5212)
+						(xy -3.302 4.4704) (xy -3.1496 4.3688) (xy -2.9718 4.2418) (xy -2.7432 4.0894) (xy -2.7178 4.0894)
+						(xy -2.4892 3.937) (xy -2.3114 3.81) (xy -2.1844 3.7084) (xy -2.1336 3.683) (xy -2.1082 3.683)
+						(xy -2.032 3.7084) (xy -1.8542 3.7592) (xy -1.6764 3.8354) (xy -1.4732 3.937) (xy -1.27 4.0132)
+						(xy -1.143 4.064) (xy -1.0668 4.1148) (xy -1.0668 4.1148) (xy -1.0414 4.191) (xy -1.016 4.3434)
+						(xy -0.9652 4.572) (xy -0.9144 4.8514) (xy -0.889 4.9022) (xy -0.8382 5.1562) (xy -0.8128 5.3848)
+						(xy -0.7874 5.5372) (xy -0.762 5.588) (xy -0.7112 5.6134) (xy -0.5842 5.6134) (xy -0.4064 5.6134)
+						(xy -0.1524 5.6134) (xy 0.0762 5.6134) (xy 0.3302 5.6134) (xy 0.5334 5.6134) (xy 0.6858 5.588)
+						(xy 0.7366 5.588) (xy 0.7366 5.588) (xy 0.762 5.5118) (xy 0.8128 5.334) (xy 0.8382 5.1054) (xy 0.9144 4.826)
+						(xy 0.9144 4.7752) (xy 0.9652 4.5212) (xy 1.016 4.2926) (xy 1.0414 4.1402) (xy 1.0668 4.0894)
+						(xy 1.0668 4.0894) (xy 1.1938 4.0386) (xy 1.3716 3.9624) (xy 1.5748 3.8608) (xy 2.0828 3.6576)
+						(xy 2.7178 4.0894) (xy 2.7686 4.1402) (xy 2.9972 4.2926) (xy 3.175 4.4196) (xy 3.302 4.4958) (xy 3.3782 4.5212)
+						(xy 3.3782 4.5212) (xy 3.429 4.4704) (xy 3.556 4.3434) (xy 3.7338 4.191) (xy 3.9116 3.9878) (xy 4.064 3.8354)
+						(xy 4.2418 3.6576) (xy 4.3434 3.556) (xy 4.4196 3.4798) (xy 4.4196 3.429) (xy 4.4196 3.4036) (xy 4.3942 3.3274)
+						(xy 4.2926 3.2004) (xy 4.1656 2.9972) (xy 4.0132 2.794) (xy 3.8862 2.5908) (xy 3.7592 2.3876)
+						(xy 3.6576 2.2352) (xy 3.6322 2.159) (xy 3.6322 2.1336) (xy 3.683 2.0066) (xy 3.7592 1.8288) (xy 3.8608 1.6002)
+						(xy 4.064 1.1176) (xy 4.3942 1.0414) (xy 4.5974 1.016) (xy 4.8768 0.9652) (xy 5.1308 0.9144) (xy 5.5372 0.8382)
+						(xy 5.5626 -0.6604) (xy 5.4864 -0.6858) (xy 5.4356 -0.6858) (xy 5.2832 -0.7366) (xy 5.0546 -0.762)
+						(xy 4.8006 -0.8128) (xy 4.5974 -0.8636) (xy 4.3688 -0.9144) (xy 4.2164 -0.9398) (xy 4.1402 -0.9398)
+						(xy 4.1148 -0.9652) (xy 4.064 -1.0668) (xy 3.9878 -1.2446) (xy 3.9116 -1.4478) (xy 3.81 -1.651)
+						(xy 3.7338 -1.8542) (xy 3.683 -2.0066) (xy 3.6576 -2.0828) (xy 3.683 -2.1336) (xy 3.7846 -2.2606)
+						(xy 3.8862 -2.4638) (xy 4.0386 -2.667) (xy 4.191 -2.8956) (xy 4.318 -3.0734) (xy 4.3942 -3.2004)
+						(xy 4.445 -3.2766) (xy 4.4196 -3.3274) (xy 4.3434 -3.429) (xy 4.1656 -3.5814) (xy 3.937 -3.8354)
+						(xy 3.8862 -3.8608) (xy 3.683 -4.064) (xy 3.5306 -4.2164) (xy 3.4036 -4.318) (xy 3.3528 -4.3434)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "Graphic:SYM_Arrow_Large"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_Arrow_Large"
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Filled arrow, 300mil"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "symbol arrow"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_Arrow_Large_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 1.27 -0.762) (xy 1.27 0.762) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "Graphic:SYM_Flash_Small"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at -2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_Flash_Small"
+				(at 2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 10.16 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Flash symbol, small"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "graphic symbol flash VAC 220VAC 110VAC power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_Flash_Small_0_1"
+				(polyline
+					(pts
+						(xy 0.508 -1.016) (xy -1.016 -0.762) (xy -1.016 -3.048) (xy 0.508 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 3.81) (xy 0.508 3.81) (xy -0.254 1.524) (xy 1.27 2.286) (xy 0 -1.016) (xy -0.508 -0.762)
+						(xy 0.254 1.016) (xy -1.27 0.254) (xy -0.254 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_names
@@ -3373,16 +3404,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 116.84) (xy 144.78 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10532252-4bac-4633-b29a-cb24f169a214")
-	)
-	(wire
-		(pts
 			(xy 138.43 101.6) (xy 144.78 101.6)
 		)
 		(stroke
@@ -3703,7 +3724,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 97.79) (xy 207.01 99.06)
+			(xy 205.74 97.79) (xy 205.74 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3733,7 +3754,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 99.06) (xy 204.47 99.06)
+			(xy 205.74 99.06) (xy 203.2 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3810,6 +3831,16 @@
 			(type default)
 		)
 		(uuid "74cb637c-8e3b-42c9-9627-5d14926e2b4e")
+	)
+	(wire
+		(pts
+			(xy 142.24 116.84) (xy 144.78 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a9a999-6b6e-4e02-9946-3b5727317ca1")
 	)
 	(wire
 		(pts
@@ -3890,6 +3921,16 @@
 			(type default)
 		)
 		(uuid "8c866da0-5ecb-4f16-9748-de4076a57fd2")
+	)
+	(wire
+		(pts
+			(xy 142.24 119.38) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ae1a97-cf0a-4d78-aa9c-45a3afb95ce0")
 	)
 	(wire
 		(pts
@@ -4033,7 +4074,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 88.9) (xy 207.01 90.17)
+			(xy 205.74 88.9) (xy 205.74 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4110,16 +4151,6 @@
 			(type default)
 		)
 		(uuid "bf37462f-bd98-44bf-84a9-ad06d670f386")
-	)
-	(wire
-		(pts
-			(xy 142.24 119.38) (xy 142.24 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d151edba-8f18-44c8-b6ff-8c3a19d5023f")
 	)
 	(wire
 		(pts
@@ -4234,7 +4265,7 @@
 	)
 	(text "500762-0481"
 		(exclude_from_sim no)
-		(at 247.65 20.32 0)
+		(at 247.65 47.752 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4252,26 +4283,6 @@
 			(justify right bottom)
 		)
 		(uuid "53e167ba-254a-4914-8911-911f8028c6bf")
-	)
-	(text "500762-0481"
-		(exclude_from_sim no)
-		(at 160.02 19.812 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "86a6c104-89c1-4633-92f6-e0aefedfb52e")
-	)
-	(text "500762-0481"
-		(exclude_from_sim no)
-		(at 70.358 20.574 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8b33d33d-1e4a-45c4-85b9-d1d49fe8bf75")
 	)
 	(text "Note for Molex CMC48Way Connector :\n\nMale part (PCB Header) : 500762-0481\nFemale part : 64320-3311\n0.635mm CMC CP Female Terminals : 64322\n1.5mm CMC CP Female Terminals : 64323"
 		(exclude_from_sim no)
@@ -4528,7 +4539,7 @@
 	)
 	(global_label "SHIFT+"
 		(shape input)
-		(at 204.47 99.06 180)
+		(at 203.2 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4538,7 +4549,7 @@
 		)
 		(uuid "667284eb-1a5f-4922-b292-53e473a0b8ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.7114 99.06 0)
+			(at 193.4414 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,33 +5174,33 @@
 		(uuid "ebbd5f45-c4a8-4827-b38b-6e0b1f545291")
 	)
 	(symbol
-		(lib_id "Speeduino_Bike_Prototype:core4_rev1")
-		(at 160.02 101.6 0)
+		(lib_id "Bike_Prototype_LIB:Molex_Conn_48_Male_Black")
+		(at 160.02 40.64 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a1568d2-d9d3-485b-9a4b-849eae546d6e")
-		(property "Reference" "U2"
-			(at 159.385 81.28 0)
+		(uuid "123a6cca-3859-4b16-85ea-fcab3788d070")
+		(property "Reference" "U1"
+			(at 159.766 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "core4_rev1"
-			(at 159.385 83.82 0)
+		(property "Value" "~"
+			(at 160.02 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Speeduino_Bike_Prototype:Core4"
-			(at 181.61 91.44 90)
+		(property "Footprint" "Bike_Prototype_LIB:Molex_CMC_48pin_Male_Black"
+			(at 160.782 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,8 +5208,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 181.61 91.44 90)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5007620481"
+			(at 162.052 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,7 +5218,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 101.6 0)
+			(at 160.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,197 +5226,437 @@
 				(hide yes)
 			)
 		)
-		(pin "62"
-			(uuid "57d63418-3408-4975-8d48-e5a41b1d5915")
+		(property "Manufacturer part Number" "500762-0481"
+			(at 160.274 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "55"
-			(uuid "b7c7a52d-b0aa-4d80-b95b-deddc842ea6e")
-		)
-		(pin "60"
-			(uuid "a831f137-82dd-4a14-bf6f-55535300634c")
-		)
-		(pin "53"
-			(uuid "e2795965-4f7f-42f3-8e1d-92d623232d57")
-		)
-		(pin "57"
-			(uuid "0685d46e-7cd6-4e6a-bf78-14fb28f6f182")
-		)
-		(pin "58"
-			(uuid "11cab01a-3892-48b6-b1cf-1716247f5c36")
-		)
-		(pin "56"
-			(uuid "b2d53061-00fa-430f-b0fe-9687a69a5756")
-		)
-		(pin "52"
-			(uuid "f3599089-5aea-428b-993f-54248637718d")
-		)
-		(pin "61"
-			(uuid "69b1d569-030f-408b-8c58-9357ad2bd1e2")
-		)
-		(pin "59"
-			(uuid "d6ed9c3f-71f0-413c-a68f-30f9f59d3d66")
-		)
-		(pin "54"
-			(uuid "d89fa30a-f56c-43e7-8529-22d56fa6a751")
-		)
-		(pin "45"
-			(uuid "2992e31d-1b7a-4d31-a58e-328917658359")
-		)
-		(pin "20"
-			(uuid "1e0cf730-3302-4e1a-bb9e-af2c82aeacc2")
-		)
-		(pin "10"
-			(uuid "f8b34293-1927-4152-8ddf-99905c97a41c")
-		)
-		(pin "24"
-			(uuid "532facec-592a-4e6b-866d-02fc28ae45e8")
-		)
-		(pin "22"
-			(uuid "864897f0-4341-4cf1-aab9-f2bcc1f17cd6")
-		)
-		(pin "36"
-			(uuid "12c01812-e8f5-4198-bd58-681e682c1124")
-		)
-		(pin "11"
-			(uuid "c09d5f9d-0826-4f31-8b9d-d1e98199769e")
-		)
-		(pin "17"
-			(uuid "cea8d9c9-f59c-415f-b706-4d6c2493d418")
-		)
-		(pin "34"
-			(uuid "dc3fe3d5-47fd-4a8f-a393-1eb556551665")
-		)
-		(pin "28"
-			(uuid "d7c6ffc6-da8f-4bcd-963d-e1bfceb438d7")
-		)
-		(pin "44"
-			(uuid "81a56481-2db0-4e9d-8469-87ead06a4cc9")
-		)
-		(pin "46"
-			(uuid "58c1f19e-b61e-4fca-9a98-09bedd7fc9ee")
-		)
-		(pin "31"
-			(uuid "25df8929-0deb-4ac1-8d37-2c330c45ca90")
-		)
-		(pin "27"
-			(uuid "95629dbb-fe25-4293-98e2-37d250ed843c")
-		)
-		(pin "9"
-			(uuid "3188c8fc-6ef8-42f7-8928-9ec4b9123222")
-		)
-		(pin "35"
-			(uuid "393a7ae5-e843-4759-8e26-6afd114c15ac")
-		)
-		(pin "33"
-			(uuid "097e1337-90f1-45a6-be8e-b3ed9e8bbe8b")
-		)
-		(pin "39"
-			(uuid "e54b08ff-2cea-49da-811f-6af4794fd3f6")
-		)
-		(pin "41"
-			(uuid "504d4383-ae7b-4f9b-89dd-54036bd0fece")
-		)
-		(pin "47"
-			(uuid "ad6dfa1e-a499-4cab-bc6c-1d3d17b2ba62")
-		)
-		(pin "2"
-			(uuid "bb6e882f-ca9d-4314-a185-8c60e98d9c64")
+		(property "Plug part number" "64320-3311"
+			(at 160.02 20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "48"
-			(uuid "d7d85508-3fc5-486a-ad11-1d2643771da9")
+			(uuid "212b547e-8ef3-4d78-bfa9-7c10b28e2158")
 		)
-		(pin "15"
-			(uuid "2c38ca79-0af8-4540-9482-3603ef682e08")
-		)
-		(pin "26"
-			(uuid "eae7d06e-5f4d-4950-862b-e0e96a58a3a0")
-		)
-		(pin "49"
-			(uuid "4a10d938-a7fe-49bd-9e9e-0a70ba19308a")
-		)
-		(pin "50"
-			(uuid "0f360ba7-2752-48a4-96bb-1c37c620dde6")
-		)
-		(pin "3"
-			(uuid "f408e87c-442f-499f-acf9-ea98d540df0a")
-		)
-		(pin "8"
-			(uuid "800f8bc6-b5b2-4576-9b6d-4ddb0829e434")
-		)
-		(pin "51"
-			(uuid "d307e41f-4a72-45f9-af11-79580f5000a8")
-		)
-		(pin "13"
-			(uuid "3abac266-3871-4445-af53-a387a264ff09")
-		)
-		(pin "12"
-			(uuid "81d4b564-85de-41a3-b675-13b342c51635")
-		)
-		(pin "16"
-			(uuid "5460b357-7b8c-45e8-a213-ba33e229787b")
-		)
-		(pin "38"
-			(uuid "7e7f20ad-334c-4fc8-aac7-26b439f9cace")
-		)
-		(pin "43"
-			(uuid "4bde85d7-3afd-47a4-a75e-660544f99b6a")
-		)
-		(pin "7"
-			(uuid "1f675767-b58e-41de-9ba6-8f0da27ad584")
-		)
-		(pin "21"
-			(uuid "121b4a8d-9349-49c4-bde3-9bee33621a5e")
-		)
-		(pin "18"
-			(uuid "5731cdb6-3f7d-4369-ba4c-5929d1c1f121")
-		)
-		(pin "23"
-			(uuid "5e74dd99-f531-42ef-941d-2e05cc03f5fc")
-		)
-		(pin "29"
-			(uuid "6668e2db-667b-442c-b77e-b36090baa33e")
-		)
-		(pin "14"
-			(uuid "acaee8a6-0757-4103-9e58-35df864d2ce6")
-		)
-		(pin "19"
-			(uuid "be2492ae-a1f6-45c5-8b1f-28cce04c2829")
-		)
-		(pin "25"
-			(uuid "366487e4-421c-477a-8931-51b13ae11b5c")
-		)
-		(pin "4"
-			(uuid "893795da-ed13-47de-ae49-a11b58ba78e8")
-		)
-		(pin "1"
-			(uuid "fabd5643-647f-43e5-ae25-b5380602a572")
-		)
-		(pin "6"
-			(uuid "1f20e778-faa6-4b7d-af83-67d12ac9fd3a")
-		)
-		(pin "30"
-			(uuid "d2a769ee-e3f4-46e9-b53a-59b92fdf9574")
+		(pin "35"
+			(uuid "56c53c6c-f6da-44e8-8849-4997bda98fa5")
 		)
 		(pin "32"
-			(uuid "d475e75d-5134-43f7-94b4-2d95c1f4bbeb")
+			(uuid "013a1182-9880-4971-bccf-acb44e601a09")
+		)
+		(pin "36"
+			(uuid "af2af5e8-bcee-4525-acc9-8706d69ac358")
 		)
 		(pin "37"
-			(uuid "8b73692c-42ef-402c-8e7e-ed548c6076f2")
+			(uuid "4c3a2ff4-8a46-4389-92e5-78ca538eacd9")
 		)
-		(pin "40"
-			(uuid "bf5a9512-e000-4aa8-a79f-30d75d11425d")
+		(pin "46"
+			(uuid "c440eb5c-d153-4230-9534-613de3d933a4")
 		)
-		(pin "5"
-			(uuid "87f4c55f-cea6-46f9-914f-e931813267e6")
+		(pin "47"
+			(uuid "3c3b97aa-f4d9-492f-acaa-3deaa3e64769")
+		)
+		(pin "30"
+			(uuid "2c9314da-fcae-456d-b0d1-eb055b7fb0f9")
+		)
+		(pin "31"
+			(uuid "18257a8e-887a-4b3a-8c56-30b9301a709e")
+		)
+		(pin "33"
+			(uuid "79a9119e-c9df-4217-b2b3-d40239634497")
+		)
+		(pin "41"
+			(uuid "01ecd90b-cb18-41b3-b1e7-dc516f3eb7a9")
+		)
+		(pin "29"
+			(uuid "c9eef8d4-e001-4151-8192-e53a33ca96f5")
 		)
 		(pin "42"
-			(uuid "1a22fc51-fc69-437a-beb1-77fb799e8e4e")
+			(uuid "f8d141fc-feae-455f-8617-8ec49d1d12a2")
+		)
+		(pin "44"
+			(uuid "9ac5c604-680d-4f4c-8181-e64066b2f0fa")
+		)
+		(pin "45"
+			(uuid "29a56d8b-a948-4c92-98e3-8ea460d57bcf")
+		)
+		(pin "40"
+			(uuid "3ff53b61-0671-4255-bf2c-5065406b59b1")
+		)
+		(pin "34"
+			(uuid "9892904c-ff1c-44b5-b0b5-f18944c5975f")
+		)
+		(pin "38"
+			(uuid "e3901817-3d03-43cf-acb2-fe7183e657a0")
+		)
+		(pin "28"
+			(uuid "3e9883d9-b0f7-46a0-877d-68f2c8a0f68b")
+		)
+		(pin "39"
+			(uuid "3233eeb9-433e-4a6b-bca8-17beac621481")
+		)
+		(pin "43"
+			(uuid "2d329c7a-3127-4634-9f85-f028d20178c6")
+		)
+		(pin "2"
+			(uuid "1c3bd9ed-c0a8-4002-b76f-a1da9e39a711")
+		)
+		(pin "4"
+			(uuid "f903eca5-54f3-4a03-a0bf-50c62419486e")
+		)
+		(pin "17"
+			(uuid "3b8b31a5-6305-4e96-a5a8-3531cf799dd9")
+		)
+		(pin "5"
+			(uuid "dcb265ab-56e2-410c-ba37-e7fc9441d153")
+		)
+		(pin "8"
+			(uuid "57720b50-467a-4622-af3f-b6bf6417fc4c")
+		)
+		(pin "13"
+			(uuid "3d3c149d-9261-44ac-baf2-b49dfdd40312")
+		)
+		(pin "9"
+			(uuid "a411b0d5-17a0-4124-82de-cdc6aac7167c")
+		)
+		(pin "18"
+			(uuid "0fde7807-c745-4d87-8b8c-184a03882efa")
+		)
+		(pin "21"
+			(uuid "cd049ac1-a379-4bc6-833d-675a70414b97")
+		)
+		(pin "23"
+			(uuid "d6b5ca48-df27-4dce-a655-a594d86d7095")
+		)
+		(pin "7"
+			(uuid "3326e83e-b99e-430b-b12a-ded53180032f")
+		)
+		(pin "24"
+			(uuid "83c25990-2116-4565-86ef-77a18b7b69e8")
+		)
+		(pin "25"
+			(uuid "7d5644c8-e97e-4ea7-b72b-221c34d93af0")
+		)
+		(pin "26"
+			(uuid "fc8d2f7d-f86c-4e33-8a6f-8ba74454baad")
+		)
+		(pin "1"
+			(uuid "c33e0d64-4e73-47bc-8994-1f1b95e9ba2f")
+		)
+		(pin "27"
+			(uuid "929b667e-3242-4088-b1cf-087e974a68e2")
+		)
+		(pin "10"
+			(uuid "40a37dbe-b7a2-421e-b61f-c43cc28efd10")
+		)
+		(pin "19"
+			(uuid "daf9f44e-bb98-45eb-9553-239c1bf28241")
+		)
+		(pin "6"
+			(uuid "d287a626-ab41-4c30-9a5b-8a6738c9254f")
+		)
+		(pin "11"
+			(uuid "8f9f2be6-7e3a-4000-a7ac-2e31831846c0")
+		)
+		(pin "12"
+			(uuid "134901db-a525-4a49-8a37-740d5890e880")
+		)
+		(pin "20"
+			(uuid "26e1b042-416f-4292-b9d0-69efe218c557")
+		)
+		(pin "22"
+			(uuid "0ce91925-3614-4026-91a0-0db61ad3801a")
+		)
+		(pin "15"
+			(uuid "6c52dde2-1da5-4f8d-aacb-10e07192e517")
+		)
+		(pin "16"
+			(uuid "bcd1edb6-3981-4973-987f-795de1691874")
+		)
+		(pin "3"
+			(uuid "f3eac18d-bfe6-4a8c-b42c-f8f81070c2fe")
+		)
+		(pin "14"
+			(uuid "aac80090-2fc1-493d-b2fb-0ffeeb776510")
+		)
+		(instances
+			(project ""
+				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bike_Prototype_LIB:core4_rev1")
+		(at 69.85 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14e88096-9e71-4758-8710-8ad33be7c2f2")
+		(property "Reference" "U2"
+			(at 69.215 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "core4_rev1"
+			(at 69.215 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bike_Prototype_LIB:Core4"
+			(at 70.104 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diy-efi.co.uk/knowledge-base/core4-universal-getting-started"
+			(at 73.66 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Speeduino compatible board, with the arduino and Speeduino board, all in one. 4 Channel Injector and Ignition, various inputs and outputs."
+			(at 75.438 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Documentation 2" "https://diy-efi.co.uk/resources"
+			(at 69.215 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Shop link" "https://diy-efi.co.uk/product/core4-module"
+			(at 69.215 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "43"
+			(uuid "a69d0079-9c31-457e-b6af-9376785247a2")
+		)
+		(pin "56"
+			(uuid "3a8f2a16-c1c7-4732-bfcf-d26bca321be0")
+		)
+		(pin "44"
+			(uuid "a89725e2-ab18-4948-87c8-e48e36db437f")
+		)
+		(pin "47"
+			(uuid "7b7a196d-7e4e-4215-ae2f-a71373341c33")
+		)
+		(pin "35"
+			(uuid "5d7e1fb5-a9a7-4712-871c-1038eae87797")
+		)
+		(pin "48"
+			(uuid "1bfed42e-0aa7-4350-997f-d2acf92fcf61")
+		)
+		(pin "38"
+			(uuid "4b35e356-10c5-423d-a5dc-bf17214129d7")
+		)
+		(pin "53"
+			(uuid "da1dc9f9-3b19-4ec4-bb95-b58257a72406")
+		)
+		(pin "42"
+			(uuid "a7d83ba1-b4d5-409e-b044-852e464d9704")
+		)
+		(pin "50"
+			(uuid "4a94c3cf-c916-4c9f-bd9d-6a22b04a07ee")
+		)
+		(pin "60"
+			(uuid "e75b4f2f-7da2-453f-b117-c6736922cbac")
+		)
+		(pin "37"
+			(uuid "c8d4fa72-31d6-4690-b71c-ec88b48b0695")
+		)
+		(pin "57"
+			(uuid "10c54994-41a0-4f2b-b21a-6ca360090524")
+		)
+		(pin "52"
+			(uuid "b3ab1351-9c94-475d-ad4b-02f39e4c7292")
+		)
+		(pin "32"
+			(uuid "87f2aed6-bca3-4ff7-b5f1-4ea4feb028b4")
+		)
+		(pin "41"
+			(uuid "cbdeace9-6aa8-49fb-99ce-9607c325d837")
+		)
+		(pin "55"
+			(uuid "5bd2518a-1e53-41b1-a185-0c2efd096319")
+		)
+		(pin "39"
+			(uuid "86faccac-d2e9-4d20-ad29-4d371613a40f")
+		)
+		(pin "29"
+			(uuid "68b68f21-0742-46fa-85fa-facf62eb2eee")
+		)
+		(pin "31"
+			(uuid "38546305-4f8c-4622-b73c-167db39d865f")
+		)
+		(pin "34"
+			(uuid "98a6be3c-61ac-4423-a0fd-daa1812761fe")
+		)
+		(pin "59"
+			(uuid "995013a1-40dd-4c9c-9320-809be610434c")
+		)
+		(pin "30"
+			(uuid "f2672d9c-e37c-47c3-9c48-c98c6ede8054")
+		)
+		(pin "33"
+			(uuid "0bb4f6f7-8c5c-47d5-8669-2133f96e606f")
+		)
+		(pin "46"
+			(uuid "8ed1418c-5853-49ee-ad7a-f27d2db21ce1")
+		)
+		(pin "51"
+			(uuid "34411d67-74b0-4830-9a26-b626ca1877a7")
+		)
+		(pin "54"
+			(uuid "e1583c9c-7224-45cf-b58a-65bea2420e39")
+		)
+		(pin "45"
+			(uuid "ce6e6279-7d47-460d-9b4f-06316d7be3e8")
+		)
+		(pin "40"
+			(uuid "83c901b6-a054-4f09-9807-453667da5770")
+		)
+		(pin "62"
+			(uuid "b5a98482-d1dc-4ce1-a429-b5f0832a640c")
+		)
+		(pin "36"
+			(uuid "065bc34a-d889-455e-b6e4-410d7f408a1a")
+		)
+		(pin "61"
+			(uuid "a78aa6c0-3e92-4823-9258-d15c02d58acc")
+		)
+		(pin "58"
+			(uuid "56c9edfa-be25-4c02-b52e-a08b28090603")
+		)
+		(pin "49"
+			(uuid "dbc748ed-05f1-4e93-84d4-b7e4ae79cabe")
+		)
+		(pin "20"
+			(uuid "62eba555-f4c3-4adb-b0fc-f660f2ec83ee")
+		)
+		(pin "15"
+			(uuid "458535fc-27a3-4849-9453-89a9d71352bc")
+		)
+		(pin "3"
+			(uuid "631a752a-ec1a-4caf-ba4e-dbafbf791649")
+		)
+		(pin "14"
+			(uuid "f6c499a6-6feb-4e0a-8c73-a746aa8326fa")
+		)
+		(pin "18"
+			(uuid "ca3c10ed-d6e5-4aa0-bacd-6ef0ab1ae81c")
+		)
+		(pin "2"
+			(uuid "999d37d6-5c31-45c9-9dd3-b7ee8abe1a4b")
+		)
+		(pin "6"
+			(uuid "62294185-6557-4d2f-9d2d-d4d3fa41f95d")
+		)
+		(pin "28"
+			(uuid "eae2ebb1-42d6-4e31-bddf-d075d55cef84")
+		)
+		(pin "17"
+			(uuid "5eb90220-d582-4256-9b0a-3dad3482584d")
+		)
+		(pin "12"
+			(uuid "a9ccb25c-48ce-49ce-be71-37b42c35f6a5")
+		)
+		(pin "22"
+			(uuid "0e3a02dd-42af-444e-89e0-9063e4c2dfcc")
+		)
+		(pin "24"
+			(uuid "4702044f-84b6-4bc8-936c-997b5c6ee308")
+		)
+		(pin "19"
+			(uuid "eaf608bf-54cb-4227-8115-db42e93cd448")
+		)
+		(pin "11"
+			(uuid "8a27db5a-5883-40bb-a4e7-0eb85c8c4f88")
+		)
+		(pin "13"
+			(uuid "094b5660-c4cc-43c6-a995-383dcc5534cf")
+		)
+		(pin "25"
+			(uuid "87f5106a-2a99-413f-944f-d5b3b161529e")
+		)
+		(pin "9"
+			(uuid "75c39030-101a-450f-bc7e-dc6f7d4e642d")
+		)
+		(pin "10"
+			(uuid "2f47be85-0476-43ac-855f-a844a2336d16")
+		)
+		(pin "21"
+			(uuid "763f92a5-ada3-4712-8fdb-7dcb76ac1f6d")
+		)
+		(pin "4"
+			(uuid "68ed5206-4275-4643-95ab-a90f106387b7")
+		)
+		(pin "8"
+			(uuid "4d85b10f-a160-4887-87d6-d537aca47e80")
+		)
+		(pin "23"
+			(uuid "80208877-aae8-4013-96ba-ffa4182f142f")
+		)
+		(pin "26"
+			(uuid "e14b074f-2b47-4564-a1f2-5e686c770f45")
+		)
+		(pin "27"
+			(uuid "5f4413f3-3653-45fb-a81f-caf5d74287b7")
+		)
+		(pin "1"
+			(uuid "e40f7ab5-9dcd-4f9d-b16f-c2b3e438400f")
+		)
+		(pin "16"
+			(uuid "35af7a94-9ce9-44ce-b31f-60bf22817b54")
+		)
+		(pin "5"
+			(uuid "a1f6d847-a1b6-4379-94fd-4286fd8ab074")
+		)
+		(pin "7"
+			(uuid "c7641ec3-46c1-4768-843e-7c6c00282df8")
 		)
 		(instances
 			(project ""
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
 					(reference "U2")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -5420,7 +5671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16e0f8cf-33ca-4ad6-9e75-1a0cbb0e2880")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR04"
 			(at 133.35 134.62 0)
 			(effects
 				(font
@@ -5470,49 +5721,40 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "#PWR07")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Speeduino_Bike_Prototype:Molex_Conn_48_Male_Black")
-		(at 247.65 39.37 0)
-		(unit 3)
+		(lib_id "Bike_Prototype_LIB:core4_rev1")
+		(at 160.02 101.6 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "39273c28-f120-4cc1-a00d-5424e29c61ff")
-		(property "Reference" "U1"
-			(at 247.65 29.21 0)
+		(uuid "418aa991-1000-4830-9d8b-9ab2084894b2")
+		(property "Reference" "U2"
+			(at 159.385 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 247.65 31.75 0)
+		(property "Value" "core4_rev1"
+			(at 159.385 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Speeduino_Bike_Prototype:Molex_CMC_48pin_Male_Black"
-			(at 248.412 23.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 38.1 0)
+		(property "Footprint" "Bike_Prototype_LIB:Core4"
+			(at 160.274 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,8 +5762,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 247.65 39.37 0)
+		(property "Datasheet" "https://diy-efi.co.uk/knowledge-base/core4-universal-getting-started"
+			(at 163.83 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,171 +5771,238 @@
 				(hide yes)
 			)
 		)
-		(pin "15"
-			(uuid "6f3c19c8-3336-433c-b7fb-cd2202af5304")
+		(property "Description" "Speeduino compatible board, with the arduino and Speeduino board, all in one. 4 Channel Injector and Ignition, various inputs and outputs."
+			(at 165.608 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "44"
-			(uuid "3b25f430-e75b-4db8-913f-ed6addd2a6bf")
+		(property "Documentation 2" "https://diy-efi.co.uk/resources"
+			(at 159.385 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "34"
-			(uuid "0a35680b-b87e-4178-8802-838b9871e4a3")
-		)
-		(pin "35"
-			(uuid "39519768-b2ac-406e-ab02-29b423f51fb5")
-		)
-		(pin "36"
-			(uuid "9bb7a578-b26f-439a-a2ef-846af5492ce0")
-		)
-		(pin "40"
-			(uuid "81cc4a2b-1448-49c4-b719-df341a4c694b")
-		)
-		(pin "14"
-			(uuid "eebacb5d-1028-4f92-a7c2-c50fba3559bc")
-		)
-		(pin "33"
-			(uuid "b25134a4-9e52-433f-a1cd-bd945ae351cf")
-		)
-		(pin "45"
-			(uuid "ed52f22a-a7c7-4117-aaa2-031c66c77996")
-		)
-		(pin "28"
-			(uuid "6a17c4ed-b488-4afc-8bb0-9ffcf473f20d")
-		)
-		(pin "23"
-			(uuid "ee404392-b36b-4b0d-b77c-3447e8d96275")
-		)
-		(pin "11"
-			(uuid "0d97d437-1931-4aab-b678-78c122206cb6")
-		)
-		(pin "29"
-			(uuid "91ddb2f9-7b9e-456a-ad9e-0ec95e9cbeab")
-		)
-		(pin "48"
-			(uuid "6526f34c-5544-40e9-bd43-0ec263eae4e9")
-		)
-		(pin "10"
-			(uuid "8ddbadea-73f3-4232-875d-ecbe9e1f9bdc")
-		)
-		(pin "19"
-			(uuid "58c3535f-7683-4255-b91b-a235b7490711")
-		)
-		(pin "39"
-			(uuid "9eed4ea3-8d90-40c6-9f80-c8b237b16a12")
-		)
-		(pin "31"
-			(uuid "715adca3-14ec-48c0-bc50-2117024558c7")
-		)
-		(pin "17"
-			(uuid "8f3a6f12-583c-49b7-8ea6-9d899c0a0f8f")
-		)
-		(pin "20"
-			(uuid "2e593617-5b70-4cfc-9927-972b167304c4")
-		)
-		(pin "41"
-			(uuid "4dbe5cc4-f42e-4f9c-83d5-53c26012dafc")
-		)
-		(pin "38"
-			(uuid "e3f70589-b458-4409-9f3d-8b1e51d48e19")
-		)
-		(pin "37"
-			(uuid "612cf499-b6ef-4b98-8acf-a76182feb366")
-		)
-		(pin "21"
-			(uuid "f3af0406-32ab-4dbe-a22e-d1293adaaa5d")
-		)
-		(pin "3"
-			(uuid "30d1e82d-ff07-4538-9d26-055ceb8cce5f")
-		)
-		(pin "7"
-			(uuid "8cbcf270-eac1-4011-bf47-772e9333e2ab")
-		)
-		(pin "42"
-			(uuid "e32d2773-0f6a-4315-9cdb-676d10402b1b")
-		)
-		(pin "12"
-			(uuid "e4c3e9db-cc94-4686-ba59-6c6d84a6d6ad")
-		)
-		(pin "30"
-			(uuid "20cfc28c-6c3e-441f-a147-327ede85d811")
-		)
-		(pin "16"
-			(uuid "9f4d219a-7d4b-46a1-a107-bb8f6e2d0314")
-		)
-		(pin "32"
-			(uuid "9a124560-4193-4987-bbc7-160354ac30ac")
-		)
-		(pin "46"
-			(uuid "55be60cc-8139-413a-aa7e-00de0cfafb05")
-		)
-		(pin "25"
-			(uuid "f4bfeb54-6646-4113-8fc9-c9f203707b00")
-		)
-		(pin "8"
-			(uuid "38e35b2f-f38a-4d6a-a418-b9b0d4a8c947")
-		)
-		(pin "47"
-			(uuid "20f7f2c1-bb2c-4009-bf8c-ff95d895e37e")
-		)
-		(pin "18"
-			(uuid "fbcdf4da-fa82-47a4-b93b-b616d007683c")
-		)
-		(pin "24"
-			(uuid "e44a5599-c07e-4f3e-8cc9-b122b8fd7b4f")
+		(property "Shop link" "https://diy-efi.co.uk/product/core4-module"
+			(at 159.385 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "43"
-			(uuid "a6028fb5-431d-4627-9f36-0ad9ff24d047")
+			(uuid "a69d0079-9c31-457e-b6af-9376785247a3")
 		)
-		(pin "4"
-			(uuid "0de800a9-feeb-47b7-8c9e-968f446fdda9")
+		(pin "56"
+			(uuid "3a8f2a16-c1c7-4732-bfcf-d26bca321be1")
 		)
-		(pin "9"
-			(uuid "b6d66d3c-e277-4ad6-9db7-2c5c41b9de71")
+		(pin "44"
+			(uuid "a89725e2-ab18-4948-87c8-e48e36db4380")
 		)
-		(pin "1"
-			(uuid "f86ec103-6847-4246-83bc-76440e68c330")
+		(pin "47"
+			(uuid "7b7a196d-7e4e-4215-ae2f-a71373341c34")
 		)
-		(pin "5"
-			(uuid "1479ec9f-2beb-402e-bb09-5ac0dd665953")
+		(pin "35"
+			(uuid "5d7e1fb5-a9a7-4712-871c-1038eae87798")
 		)
-		(pin "13"
-			(uuid "f2f72a48-df92-42e9-b13d-704a07d1c0b6")
+		(pin "48"
+			(uuid "1bfed42e-0aa7-4350-997f-d2acf92fcf62")
+		)
+		(pin "38"
+			(uuid "4b35e356-10c5-423d-a5dc-bf17214129d8")
+		)
+		(pin "53"
+			(uuid "da1dc9f9-3b19-4ec4-bb95-b58257a72407")
+		)
+		(pin "42"
+			(uuid "a7d83ba1-b4d5-409e-b044-852e464d9705")
+		)
+		(pin "50"
+			(uuid "4a94c3cf-c916-4c9f-bd9d-6a22b04a07ef")
+		)
+		(pin "60"
+			(uuid "e75b4f2f-7da2-453f-b117-c6736922cbad")
+		)
+		(pin "37"
+			(uuid "c8d4fa72-31d6-4690-b71c-ec88b48b0696")
+		)
+		(pin "57"
+			(uuid "10c54994-41a0-4f2b-b21a-6ca360090525")
+		)
+		(pin "52"
+			(uuid "b3ab1351-9c94-475d-ad4b-02f39e4c7293")
+		)
+		(pin "32"
+			(uuid "87f2aed6-bca3-4ff7-b5f1-4ea4feb028b5")
+		)
+		(pin "41"
+			(uuid "cbdeace9-6aa8-49fb-99ce-9607c325d838")
+		)
+		(pin "55"
+			(uuid "5bd2518a-1e53-41b1-a185-0c2efd09631a")
+		)
+		(pin "39"
+			(uuid "86faccac-d2e9-4d20-ad29-4d371613a410")
+		)
+		(pin "29"
+			(uuid "68b68f21-0742-46fa-85fa-facf62eb2eef")
+		)
+		(pin "31"
+			(uuid "38546305-4f8c-4622-b73c-167db39d8660")
+		)
+		(pin "34"
+			(uuid "98a6be3c-61ac-4423-a0fd-daa1812761ff")
+		)
+		(pin "59"
+			(uuid "995013a1-40dd-4c9c-9320-809be610434d")
+		)
+		(pin "30"
+			(uuid "f2672d9c-e37c-47c3-9c48-c98c6ede8055")
+		)
+		(pin "33"
+			(uuid "0bb4f6f7-8c5c-47d5-8669-2133f96e6070")
+		)
+		(pin "46"
+			(uuid "8ed1418c-5853-49ee-ad7a-f27d2db21ce2")
+		)
+		(pin "51"
+			(uuid "34411d67-74b0-4830-9a26-b626ca1877a8")
+		)
+		(pin "54"
+			(uuid "e1583c9c-7224-45cf-b58a-65bea2420e3a")
+		)
+		(pin "45"
+			(uuid "ce6e6279-7d47-460d-9b4f-06316d7be3e9")
+		)
+		(pin "40"
+			(uuid "83c901b6-a054-4f09-9807-453667da5771")
+		)
+		(pin "62"
+			(uuid "b5a98482-d1dc-4ce1-a429-b5f0832a640d")
+		)
+		(pin "36"
+			(uuid "065bc34a-d889-455e-b6e4-410d7f408a1b")
+		)
+		(pin "61"
+			(uuid "a78aa6c0-3e92-4823-9258-d15c02d58acd")
+		)
+		(pin "58"
+			(uuid "56c9edfa-be25-4c02-b52e-a08b28090604")
+		)
+		(pin "49"
+			(uuid "dbc748ed-05f1-4e93-84d4-b7e4ae79cabf")
+		)
+		(pin "20"
+			(uuid "62eba555-f4c3-4adb-b0fc-f660f2ec83ef")
+		)
+		(pin "15"
+			(uuid "458535fc-27a3-4849-9453-89a9d71352bd")
+		)
+		(pin "3"
+			(uuid "631a752a-ec1a-4caf-ba4e-dbafbf79164a")
+		)
+		(pin "14"
+			(uuid "f6c499a6-6feb-4e0a-8c73-a746aa8326fb")
+		)
+		(pin "18"
+			(uuid "ca3c10ed-d6e5-4aa0-bacd-6ef0ab1ae81d")
 		)
 		(pin "2"
-			(uuid "4ac4401f-42d1-4022-aa3f-65869ec70311")
-		)
-		(pin "26"
-			(uuid "1265e990-5742-417f-94d3-bf8ddfe9a44c")
-		)
-		(pin "27"
-			(uuid "a19418f7-d08b-4849-b05a-5059e037e5fd")
+			(uuid "999d37d6-5c31-45c9-9dd3-b7ee8abe1a4c")
 		)
 		(pin "6"
-			(uuid "92873119-4553-4f27-8e8e-417c3423d8d3")
+			(uuid "62294185-6557-4d2f-9d2d-d4d3fa41f95e")
+		)
+		(pin "28"
+			(uuid "eae2ebb1-42d6-4e31-bddf-d075d55cef85")
+		)
+		(pin "17"
+			(uuid "5eb90220-d582-4256-9b0a-3dad3482584e")
+		)
+		(pin "12"
+			(uuid "a9ccb25c-48ce-49ce-be71-37b42c35f6a6")
 		)
 		(pin "22"
-			(uuid "0b676653-8202-4e22-ace2-8cd2742023bf")
+			(uuid "0e3a02dd-42af-444e-89e0-9063e4c2dfcd")
+		)
+		(pin "24"
+			(uuid "4702044f-84b6-4bc8-936c-997b5c6ee309")
+		)
+		(pin "19"
+			(uuid "eaf608bf-54cb-4227-8115-db42e93cd449")
+		)
+		(pin "11"
+			(uuid "8a27db5a-5883-40bb-a4e7-0eb85c8c4f89")
+		)
+		(pin "13"
+			(uuid "094b5660-c4cc-43c6-a995-383dcc5534d0")
+		)
+		(pin "25"
+			(uuid "87f5106a-2a99-413f-944f-d5b3b161529f")
+		)
+		(pin "9"
+			(uuid "75c39030-101a-450f-bc7e-dc6f7d4e642e")
+		)
+		(pin "10"
+			(uuid "2f47be85-0476-43ac-855f-a844a2336d17")
+		)
+		(pin "21"
+			(uuid "763f92a5-ada3-4712-8fdb-7dcb76ac1f6e")
+		)
+		(pin "4"
+			(uuid "68ed5206-4275-4643-95ab-a90f106387b8")
+		)
+		(pin "8"
+			(uuid "4d85b10f-a160-4887-87d6-d537aca47e81")
+		)
+		(pin "23"
+			(uuid "80208877-aae8-4013-96ba-ffa4182f1430")
+		)
+		(pin "26"
+			(uuid "e14b074f-2b47-4564-a1f2-5e686c770f46")
+		)
+		(pin "27"
+			(uuid "5f4413f3-3653-45fb-a81f-caf5d74287b8")
+		)
+		(pin "1"
+			(uuid "e40f7ab5-9dcd-4f9d-b16f-c2b3e4384010")
+		)
+		(pin "16"
+			(uuid "35af7a94-9ce9-44ce-b31f-60bf22817b55")
+		)
+		(pin "5"
+			(uuid "a1f6d847-a1b6-4379-94fd-4286fd8ab075")
+		)
+		(pin "7"
+			(uuid "c7641ec3-46c1-4768-843e-7c6c00282df9")
 		)
 		(instances
 			(project ""
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "U1")
-					(unit 3)
+					(reference "U2")
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.01 93.98 0)
+		(at 205.74 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3a8ad568-971e-49e4-b866-348207983276")
-		(property "Reference" "R2"
-			(at 209.55 92.71 0)
+		(uuid "47e454da-17cb-4644-abfe-17f1b1a99ec5")
+		(property "Reference" "R1"
+			(at 208.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,7 +6011,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 209.55 95.25 0)
+			(at 208.28 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,8 +6019,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 205.232 93.98 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 203.962 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,7 +6029,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 93.98 0)
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +6038,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 93.98 0)
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part" "AC0603FR-7W100KL"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.fr/ProductDetail/YAGEO/AC0603FR-7W100KL"
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,15 +6074,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4d895e00-5949-45f3-b878-7b57518ffdaf")
+			(uuid "474e67a9-24a4-445f-ace6-98d19b793c51")
 		)
 		(pin "1"
-			(uuid "404477c5-cfdf-4b09-bd1b-deb491874e99")
+			(uuid "c230192d-9682-4ee4-af45-9adea578e611")
 		)
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5762,7 +6098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4982ad0e-7a46-4164-bda0-6c8dea536f80")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR03"
 			(at 127 99.06 0)
 			(effects
 				(font
@@ -5813,7 +6149,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "#PWR06")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5829,7 +6165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b7ca3a8-35e7-42d2-add2-78ce501d6918")
-		(property "Reference" "#SYM2"
+		(property "Reference" "#SYM1"
 			(at 31.75 139.065 0)
 			(effects
 				(font
@@ -5877,7 +6213,7 @@
 		(instances
 			(project ""
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "#SYM2")
+					(reference "#SYM1")
 					(unit 1)
 				)
 			)
@@ -5885,15 +6221,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 207.01 88.9 0)
+		(at 205.74 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5c2a81d0-469d-4c36-819a-266ffff52466")
-		(property "Reference" "#PWR012"
-			(at 207.01 92.71 0)
+		(property "Reference" "#PWR05"
+			(at 205.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +6238,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 204.47 85.09 0)
+			(at 203.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +6247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 88.9 0)
+			(at 205.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +6256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 88.9 0)
+			(at 205.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +6265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 88.9 0)
+			(at 205.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +6279,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "#PWR012")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5958,7 +6294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "628aa3d2-2a87-4851-adac-337bcdcd6533")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 121.92 111.76 0)
 			(effects
 				(font
@@ -6009,7 +6345,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6089,7 +6425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8466ae18-b297-4631-b41c-e071785826f4")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 130.81 91.44 0)
 			(effects
 				(font
@@ -6139,8 +6475,272 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bike_Prototype_LIB:core4_rev1")
+		(at 247.65 101.6 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a81f56bb-9e0f-46ab-80f3-a0ed353f3440")
+		(property "Reference" "U2"
+			(at 247.015 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "core4_rev1"
+			(at 247.015 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bike_Prototype_LIB:Core4"
+			(at 247.904 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diy-efi.co.uk/knowledge-base/core4-universal-getting-started"
+			(at 251.46 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Speeduino compatible board, with the arduino and Speeduino board, all in one. 4 Channel Injector and Ignition, various inputs and outputs."
+			(at 253.238 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Documentation 2" "https://diy-efi.co.uk/resources"
+			(at 247.015 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Shop link" "https://diy-efi.co.uk/product/core4-module"
+			(at 247.015 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "43"
+			(uuid "a69d0079-9c31-457e-b6af-9376785247a4")
+		)
+		(pin "56"
+			(uuid "3a8f2a16-c1c7-4732-bfcf-d26bca321be2")
+		)
+		(pin "44"
+			(uuid "a89725e2-ab18-4948-87c8-e48e36db4381")
+		)
+		(pin "47"
+			(uuid "7b7a196d-7e4e-4215-ae2f-a71373341c35")
+		)
+		(pin "35"
+			(uuid "5d7e1fb5-a9a7-4712-871c-1038eae87799")
+		)
+		(pin "48"
+			(uuid "1bfed42e-0aa7-4350-997f-d2acf92fcf63")
+		)
+		(pin "38"
+			(uuid "4b35e356-10c5-423d-a5dc-bf17214129d9")
+		)
+		(pin "53"
+			(uuid "da1dc9f9-3b19-4ec4-bb95-b58257a72408")
+		)
+		(pin "42"
+			(uuid "a7d83ba1-b4d5-409e-b044-852e464d9706")
+		)
+		(pin "50"
+			(uuid "4a94c3cf-c916-4c9f-bd9d-6a22b04a07f0")
+		)
+		(pin "60"
+			(uuid "e75b4f2f-7da2-453f-b117-c6736922cbae")
+		)
+		(pin "37"
+			(uuid "c8d4fa72-31d6-4690-b71c-ec88b48b0697")
+		)
+		(pin "57"
+			(uuid "10c54994-41a0-4f2b-b21a-6ca360090526")
+		)
+		(pin "52"
+			(uuid "b3ab1351-9c94-475d-ad4b-02f39e4c7294")
+		)
+		(pin "32"
+			(uuid "87f2aed6-bca3-4ff7-b5f1-4ea4feb028b6")
+		)
+		(pin "41"
+			(uuid "cbdeace9-6aa8-49fb-99ce-9607c325d839")
+		)
+		(pin "55"
+			(uuid "5bd2518a-1e53-41b1-a185-0c2efd09631b")
+		)
+		(pin "39"
+			(uuid "86faccac-d2e9-4d20-ad29-4d371613a411")
+		)
+		(pin "29"
+			(uuid "68b68f21-0742-46fa-85fa-facf62eb2ef0")
+		)
+		(pin "31"
+			(uuid "38546305-4f8c-4622-b73c-167db39d8661")
+		)
+		(pin "34"
+			(uuid "98a6be3c-61ac-4423-a0fd-daa181276200")
+		)
+		(pin "59"
+			(uuid "995013a1-40dd-4c9c-9320-809be610434e")
+		)
+		(pin "30"
+			(uuid "f2672d9c-e37c-47c3-9c48-c98c6ede8056")
+		)
+		(pin "33"
+			(uuid "0bb4f6f7-8c5c-47d5-8669-2133f96e6071")
+		)
+		(pin "46"
+			(uuid "8ed1418c-5853-49ee-ad7a-f27d2db21ce3")
+		)
+		(pin "51"
+			(uuid "34411d67-74b0-4830-9a26-b626ca1877a9")
+		)
+		(pin "54"
+			(uuid "e1583c9c-7224-45cf-b58a-65bea2420e3b")
+		)
+		(pin "45"
+			(uuid "ce6e6279-7d47-460d-9b4f-06316d7be3ea")
+		)
+		(pin "40"
+			(uuid "83c901b6-a054-4f09-9807-453667da5772")
+		)
+		(pin "62"
+			(uuid "b5a98482-d1dc-4ce1-a429-b5f0832a640e")
+		)
+		(pin "36"
+			(uuid "065bc34a-d889-455e-b6e4-410d7f408a1c")
+		)
+		(pin "61"
+			(uuid "a78aa6c0-3e92-4823-9258-d15c02d58ace")
+		)
+		(pin "58"
+			(uuid "56c9edfa-be25-4c02-b52e-a08b28090605")
+		)
+		(pin "49"
+			(uuid "dbc748ed-05f1-4e93-84d4-b7e4ae79cac0")
+		)
+		(pin "20"
+			(uuid "62eba555-f4c3-4adb-b0fc-f660f2ec83f0")
+		)
+		(pin "15"
+			(uuid "458535fc-27a3-4849-9453-89a9d71352be")
+		)
+		(pin "3"
+			(uuid "631a752a-ec1a-4caf-ba4e-dbafbf79164b")
+		)
+		(pin "14"
+			(uuid "f6c499a6-6feb-4e0a-8c73-a746aa8326fc")
+		)
+		(pin "18"
+			(uuid "ca3c10ed-d6e5-4aa0-bacd-6ef0ab1ae81e")
+		)
+		(pin "2"
+			(uuid "999d37d6-5c31-45c9-9dd3-b7ee8abe1a4d")
+		)
+		(pin "6"
+			(uuid "62294185-6557-4d2f-9d2d-d4d3fa41f95f")
+		)
+		(pin "28"
+			(uuid "eae2ebb1-42d6-4e31-bddf-d075d55cef86")
+		)
+		(pin "17"
+			(uuid "5eb90220-d582-4256-9b0a-3dad3482584f")
+		)
+		(pin "12"
+			(uuid "a9ccb25c-48ce-49ce-be71-37b42c35f6a7")
+		)
+		(pin "22"
+			(uuid "0e3a02dd-42af-444e-89e0-9063e4c2dfce")
+		)
+		(pin "24"
+			(uuid "4702044f-84b6-4bc8-936c-997b5c6ee30a")
+		)
+		(pin "19"
+			(uuid "eaf608bf-54cb-4227-8115-db42e93cd44a")
+		)
+		(pin "11"
+			(uuid "8a27db5a-5883-40bb-a4e7-0eb85c8c4f8a")
+		)
+		(pin "13"
+			(uuid "094b5660-c4cc-43c6-a995-383dcc5534d1")
+		)
+		(pin "25"
+			(uuid "87f5106a-2a99-413f-944f-d5b3b16152a0")
+		)
+		(pin "9"
+			(uuid "75c39030-101a-450f-bc7e-dc6f7d4e642f")
+		)
+		(pin "10"
+			(uuid "2f47be85-0476-43ac-855f-a844a2336d18")
+		)
+		(pin "21"
+			(uuid "763f92a5-ada3-4712-8fdb-7dcb76ac1f6f")
+		)
+		(pin "4"
+			(uuid "68ed5206-4275-4643-95ab-a90f106387b9")
+		)
+		(pin "8"
+			(uuid "4d85b10f-a160-4887-87d6-d537aca47e82")
+		)
+		(pin "23"
+			(uuid "80208877-aae8-4013-96ba-ffa4182f1431")
+		)
+		(pin "26"
+			(uuid "e14b074f-2b47-4564-a1f2-5e686c770f47")
+		)
+		(pin "27"
+			(uuid "5f4413f3-3653-45fb-a81f-caf5d74287b9")
+		)
+		(pin "1"
+			(uuid "e40f7ab5-9dcd-4f9d-b16f-c2b3e4384011")
+		)
+		(pin "16"
+			(uuid "35af7a94-9ce9-44ce-b31f-60bf22817b56")
+		)
+		(pin "5"
+			(uuid "a1f6d847-a1b6-4379-94fd-4286fd8ab076")
+		)
+		(pin "7"
+			(uuid "c7641ec3-46c1-4768-843e-7c6c00282dfa")
+		)
+		(instances
+			(project ""
+				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
@@ -6155,7 +6755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfb9c8b0-2375-4898-b58f-d385eeadfb29")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 270.51 44.45 0)
 			(effects
 				(font
@@ -6206,7 +6806,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6222,7 +6822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c94f80a9-3245-4fe3-8c87-3d00dbaaf610")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 223.52 110.49 0)
 			(effects
 				(font
@@ -6273,23 +6873,247 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Speeduino_Bike_Prototype:MPXHZ6250AC6T1")
+		(lib_id "Bike_Prototype_LIB:Molex_Conn_48_Male_Black")
+		(at 69.85 40.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d454ca2d-a8be-4a6a-9605-ca074ba58da5")
+		(property "Reference" "U1"
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 71.12 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bike_Prototype_LIB:Molex_CMC_48pin_Male_Black"
+			(at 70.612 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5007620481"
+			(at 71.882 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part Number" "500762-0481"
+			(at 71.12 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Plug part number" "64320-3311"
+			(at 71.12 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "48"
+			(uuid "212b547e-8ef3-4d78-bfa9-7c10b28e2159")
+		)
+		(pin "35"
+			(uuid "56c53c6c-f6da-44e8-8849-4997bda98fa6")
+		)
+		(pin "32"
+			(uuid "013a1182-9880-4971-bccf-acb44e601a0a")
+		)
+		(pin "36"
+			(uuid "af2af5e8-bcee-4525-acc9-8706d69ac359")
+		)
+		(pin "37"
+			(uuid "4c3a2ff4-8a46-4389-92e5-78ca538eacda")
+		)
+		(pin "46"
+			(uuid "c440eb5c-d153-4230-9534-613de3d933a5")
+		)
+		(pin "47"
+			(uuid "3c3b97aa-f4d9-492f-acaa-3deaa3e6476a")
+		)
+		(pin "30"
+			(uuid "2c9314da-fcae-456d-b0d1-eb055b7fb0fa")
+		)
+		(pin "31"
+			(uuid "18257a8e-887a-4b3a-8c56-30b9301a709f")
+		)
+		(pin "33"
+			(uuid "79a9119e-c9df-4217-b2b3-d40239634498")
+		)
+		(pin "41"
+			(uuid "01ecd90b-cb18-41b3-b1e7-dc516f3eb7aa")
+		)
+		(pin "29"
+			(uuid "c9eef8d4-e001-4151-8192-e53a33ca96f6")
+		)
+		(pin "42"
+			(uuid "f8d141fc-feae-455f-8617-8ec49d1d12a3")
+		)
+		(pin "44"
+			(uuid "9ac5c604-680d-4f4c-8181-e64066b2f0fb")
+		)
+		(pin "45"
+			(uuid "29a56d8b-a948-4c92-98e3-8ea460d57bd0")
+		)
+		(pin "40"
+			(uuid "3ff53b61-0671-4255-bf2c-5065406b59b2")
+		)
+		(pin "34"
+			(uuid "9892904c-ff1c-44b5-b0b5-f18944c59760")
+		)
+		(pin "38"
+			(uuid "e3901817-3d03-43cf-acb2-fe7183e657a1")
+		)
+		(pin "28"
+			(uuid "3e9883d9-b0f7-46a0-877d-68f2c8a0f68c")
+		)
+		(pin "39"
+			(uuid "3233eeb9-433e-4a6b-bca8-17beac621482")
+		)
+		(pin "43"
+			(uuid "2d329c7a-3127-4634-9f85-f028d20178c7")
+		)
+		(pin "2"
+			(uuid "1c3bd9ed-c0a8-4002-b76f-a1da9e39a712")
+		)
+		(pin "4"
+			(uuid "f903eca5-54f3-4a03-a0bf-50c62419486f")
+		)
+		(pin "17"
+			(uuid "3b8b31a5-6305-4e96-a5a8-3531cf799dda")
+		)
+		(pin "5"
+			(uuid "dcb265ab-56e2-410c-ba37-e7fc9441d154")
+		)
+		(pin "8"
+			(uuid "57720b50-467a-4622-af3f-b6bf6417fc4d")
+		)
+		(pin "13"
+			(uuid "3d3c149d-9261-44ac-baf2-b49dfdd40313")
+		)
+		(pin "9"
+			(uuid "a411b0d5-17a0-4124-82de-cdc6aac7167d")
+		)
+		(pin "18"
+			(uuid "0fde7807-c745-4d87-8b8c-184a03882efb")
+		)
+		(pin "21"
+			(uuid "cd049ac1-a379-4bc6-833d-675a70414b98")
+		)
+		(pin "23"
+			(uuid "d6b5ca48-df27-4dce-a655-a594d86d7096")
+		)
+		(pin "7"
+			(uuid "3326e83e-b99e-430b-b12a-ded531800330")
+		)
+		(pin "24"
+			(uuid "83c25990-2116-4565-86ef-77a18b7b69e9")
+		)
+		(pin "25"
+			(uuid "7d5644c8-e97e-4ea7-b72b-221c34d93af1")
+		)
+		(pin "26"
+			(uuid "fc8d2f7d-f86c-4e33-8a6f-8ba74454baae")
+		)
+		(pin "1"
+			(uuid "c33e0d64-4e73-47bc-8994-1f1b95e9ba30")
+		)
+		(pin "27"
+			(uuid "929b667e-3242-4088-b1cf-087e974a68e3")
+		)
+		(pin "10"
+			(uuid "40a37dbe-b7a2-421e-b61f-c43cc28efd11")
+		)
+		(pin "19"
+			(uuid "daf9f44e-bb98-45eb-9553-239c1bf28242")
+		)
+		(pin "6"
+			(uuid "d287a626-ab41-4c30-9a5b-8a6738c92550")
+		)
+		(pin "11"
+			(uuid "8f9f2be6-7e3a-4000-a7ac-2e31831846c1")
+		)
+		(pin "12"
+			(uuid "134901db-a525-4a49-8a37-740d5890e881")
+		)
+		(pin "20"
+			(uuid "26e1b042-416f-4292-b9d0-69efe218c558")
+		)
+		(pin "22"
+			(uuid "0ce91925-3614-4026-91a0-0db61ad3801b")
+		)
+		(pin "15"
+			(uuid "6c52dde2-1da5-4f8d-aacb-10e07192e518")
+		)
+		(pin "16"
+			(uuid "bcd1edb6-3981-4973-987f-795de1691875")
+		)
+		(pin "3"
+			(uuid "f3eac18d-bfe6-4a8c-b42c-f8f81070c2ff")
+		)
+		(pin "14"
+			(uuid "aac80090-2fc1-493d-b2fb-0ffeeb776511")
+		)
+		(instances
+			(project ""
+				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bike_Prototype_LIB:MPXHZ6250AC6T1")
 		(at 133.35 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cfb2d547-0669-4413-a5b5-ef9c8213a35c")
+		(uuid "e219c495-7db3-42b9-912f-5503ac317ab8")
 		(property "Reference" "U3"
-			(at 124.714 121.666 0)
+			(at 128.27 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,14 +7121,14 @@
 			)
 		)
 		(property "Value" "MPXHZ6250AC6T1"
-			(at 117.602 123.952 0)
+			(at 143.51 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Speeduino_Bike_Prototype:MPXHZ6250AC6T1"
+		(property "Footprint" "Bike_Prototype_LIB:MPXHZ6250AC6T1"
 			(at 133.858 133.35 0)
 			(effects
 				(font
@@ -6313,8 +7137,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 132.08 124.46 0)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MPXH6250A.pdf"
+			(at 134.874 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,14 +7155,14 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "9880027f-570a-4632-9a20-d9ed4d945de1")
-		)
 		(pin "4"
-			(uuid "a066ca04-1886-4375-98cf-a124ee376d11")
+			(uuid "7e6d5ce5-9762-4fb0-a55d-699d0a638732")
 		)
 		(pin "3"
-			(uuid "9a2cf361-9fda-4bc0-8917-e3ffbfbc9e27")
+			(uuid "6a40fd3b-3f7f-4551-9cd7-2fc2a2716755")
+		)
+		(pin "2"
+			(uuid "e12e502f-7df1-4979-b2b9-6e419fcd8b18")
 		)
 		(instances
 			(project ""
@@ -6350,17 +7174,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Speeduino_Bike_Prototype:Molex_Conn_48_Male_Black")
-		(at 160.02 40.64 0)
-		(mirror x)
-		(unit 2)
+		(lib_id "Bike_Prototype_LIB:Molex_Conn_48_Male_Black")
+		(at 247.65 39.37 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dc0d5032-1423-4530-8bfe-f494de45ace1")
+		(uuid "e8c42988-100a-449e-90b7-452411e14d1e")
 		(property "Reference" "U1"
-			(at 160.02 57.15 0)
+			(at 247.904 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,15 +7191,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 160.02 54.61 0)
+			(at 247.65 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Speeduino_Bike_Prototype:Molex_CMC_48pin_Male_Black"
-			(at 160.782 56.134 0)
+		(property "Footprint" "Bike_Prototype_LIB:Molex_CMC_48pin_Male_Black"
+			(at 248.412 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,8 +7207,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 161.29 41.91 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5007620481"
+			(at 249.682 21.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,7 +7217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 40.64 0)
+			(at 247.65 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,403 +7225,173 @@
 				(hide yes)
 			)
 		)
-		(pin "15"
-			(uuid "6f3c19c8-3336-433c-b7fb-cd2202af5305")
+		(property "Manufacturer part Number" "500762-0481"
+			(at 247.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "44"
-			(uuid "3b25f430-e75b-4db8-913f-ed6addd2a6c0")
-		)
-		(pin "34"
-			(uuid "0a35680b-b87e-4178-8802-838b9871e4a4")
-		)
-		(pin "35"
-			(uuid "39519768-b2ac-406e-ab02-29b423f51fb6")
-		)
-		(pin "36"
-			(uuid "9bb7a578-b26f-439a-a2ef-846af5492ce1")
-		)
-		(pin "40"
-			(uuid "81cc4a2b-1448-49c4-b719-df341a4c694c")
-		)
-		(pin "14"
-			(uuid "eebacb5d-1028-4f92-a7c2-c50fba3559bd")
-		)
-		(pin "33"
-			(uuid "b25134a4-9e52-433f-a1cd-bd945ae351d0")
-		)
-		(pin "45"
-			(uuid "ed52f22a-a7c7-4117-aaa2-031c66c77997")
-		)
-		(pin "28"
-			(uuid "6a17c4ed-b488-4afc-8bb0-9ffcf473f20e")
-		)
-		(pin "23"
-			(uuid "ee404392-b36b-4b0d-b77c-3447e8d96276")
-		)
-		(pin "11"
-			(uuid "0d97d437-1931-4aab-b678-78c122206cb7")
-		)
-		(pin "29"
-			(uuid "91ddb2f9-7b9e-456a-ad9e-0ec95e9cbeac")
+		(property "Plug part number" "64320-3311"
+			(at 247.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "48"
-			(uuid "6526f34c-5544-40e9-bd43-0ec263eae4ea")
+			(uuid "212b547e-8ef3-4d78-bfa9-7c10b28e215a")
 		)
-		(pin "10"
-			(uuid "8ddbadea-73f3-4232-875d-ecbe9e1f9bdd")
-		)
-		(pin "19"
-			(uuid "58c3535f-7683-4255-b91b-a235b7490712")
-		)
-		(pin "39"
-			(uuid "9eed4ea3-8d90-40c6-9f80-c8b237b16a13")
-		)
-		(pin "31"
-			(uuid "715adca3-14ec-48c0-bc50-2117024558c8")
-		)
-		(pin "17"
-			(uuid "8f3a6f12-583c-49b7-8ea6-9d899c0a0f90")
-		)
-		(pin "20"
-			(uuid "2e593617-5b70-4cfc-9927-972b167304c5")
-		)
-		(pin "41"
-			(uuid "4dbe5cc4-f42e-4f9c-83d5-53c26012dafd")
-		)
-		(pin "38"
-			(uuid "e3f70589-b458-4409-9f3d-8b1e51d48e1a")
-		)
-		(pin "37"
-			(uuid "612cf499-b6ef-4b98-8acf-a76182feb367")
-		)
-		(pin "21"
-			(uuid "f3af0406-32ab-4dbe-a22e-d1293adaaa5e")
-		)
-		(pin "3"
-			(uuid "30d1e82d-ff07-4538-9d26-055ceb8cce60")
-		)
-		(pin "7"
-			(uuid "8cbcf270-eac1-4011-bf47-772e9333e2ac")
-		)
-		(pin "42"
-			(uuid "e32d2773-0f6a-4315-9cdb-676d10402b1c")
-		)
-		(pin "12"
-			(uuid "e4c3e9db-cc94-4686-ba59-6c6d84a6d6ae")
-		)
-		(pin "30"
-			(uuid "20cfc28c-6c3e-441f-a147-327ede85d812")
-		)
-		(pin "16"
-			(uuid "9f4d219a-7d4b-46a1-a107-bb8f6e2d0315")
+		(pin "35"
+			(uuid "56c53c6c-f6da-44e8-8849-4997bda98fa7")
 		)
 		(pin "32"
-			(uuid "9a124560-4193-4987-bbc7-160354ac30ad")
+			(uuid "013a1182-9880-4971-bccf-acb44e601a0b")
+		)
+		(pin "36"
+			(uuid "af2af5e8-bcee-4525-acc9-8706d69ac35a")
+		)
+		(pin "37"
+			(uuid "4c3a2ff4-8a46-4389-92e5-78ca538eacdb")
 		)
 		(pin "46"
-			(uuid "55be60cc-8139-413a-aa7e-00de0cfafb06")
-		)
-		(pin "25"
-			(uuid "f4bfeb54-6646-4113-8fc9-c9f203707b01")
-		)
-		(pin "8"
-			(uuid "38e35b2f-f38a-4d6a-a418-b9b0d4a8c948")
+			(uuid "c440eb5c-d153-4230-9534-613de3d933a6")
 		)
 		(pin "47"
-			(uuid "20f7f2c1-bb2c-4009-bf8c-ff95d895e37f")
+			(uuid "3c3b97aa-f4d9-492f-acaa-3deaa3e6476b")
 		)
-		(pin "18"
-			(uuid "fbcdf4da-fa82-47a4-b93b-b616d007683d")
+		(pin "30"
+			(uuid "2c9314da-fcae-456d-b0d1-eb055b7fb0fb")
 		)
-		(pin "24"
-			(uuid "e44a5599-c07e-4f3e-8cc9-b122b8fd7b50")
+		(pin "31"
+			(uuid "18257a8e-887a-4b3a-8c56-30b9301a70a0")
+		)
+		(pin "33"
+			(uuid "79a9119e-c9df-4217-b2b3-d40239634499")
+		)
+		(pin "41"
+			(uuid "01ecd90b-cb18-41b3-b1e7-dc516f3eb7ab")
+		)
+		(pin "29"
+			(uuid "c9eef8d4-e001-4151-8192-e53a33ca96f7")
+		)
+		(pin "42"
+			(uuid "f8d141fc-feae-455f-8617-8ec49d1d12a4")
+		)
+		(pin "44"
+			(uuid "9ac5c604-680d-4f4c-8181-e64066b2f0fc")
+		)
+		(pin "45"
+			(uuid "29a56d8b-a948-4c92-98e3-8ea460d57bd1")
+		)
+		(pin "40"
+			(uuid "3ff53b61-0671-4255-bf2c-5065406b59b3")
+		)
+		(pin "34"
+			(uuid "9892904c-ff1c-44b5-b0b5-f18944c59761")
+		)
+		(pin "38"
+			(uuid "e3901817-3d03-43cf-acb2-fe7183e657a2")
+		)
+		(pin "28"
+			(uuid "3e9883d9-b0f7-46a0-877d-68f2c8a0f68d")
+		)
+		(pin "39"
+			(uuid "3233eeb9-433e-4a6b-bca8-17beac621483")
 		)
 		(pin "43"
-			(uuid "a6028fb5-431d-4627-9f36-0ad9ff24d048")
-		)
-		(pin "4"
-			(uuid "0de800a9-feeb-47b7-8c9e-968f446fddaa")
-		)
-		(pin "9"
-			(uuid "b6d66d3c-e277-4ad6-9db7-2c5c41b9de72")
-		)
-		(pin "1"
-			(uuid "f86ec103-6847-4246-83bc-76440e68c331")
-		)
-		(pin "5"
-			(uuid "1479ec9f-2beb-402e-bb09-5ac0dd665954")
-		)
-		(pin "13"
-			(uuid "f2f72a48-df92-42e9-b13d-704a07d1c0b7")
+			(uuid "2d329c7a-3127-4634-9f85-f028d20178c8")
 		)
 		(pin "2"
-			(uuid "4ac4401f-42d1-4022-aa3f-65869ec70312")
+			(uuid "1c3bd9ed-c0a8-4002-b76f-a1da9e39a713")
+		)
+		(pin "4"
+			(uuid "f903eca5-54f3-4a03-a0bf-50c624194870")
+		)
+		(pin "17"
+			(uuid "3b8b31a5-6305-4e96-a5a8-3531cf799ddb")
+		)
+		(pin "5"
+			(uuid "dcb265ab-56e2-410c-ba37-e7fc9441d155")
+		)
+		(pin "8"
+			(uuid "57720b50-467a-4622-af3f-b6bf6417fc4e")
+		)
+		(pin "13"
+			(uuid "3d3c149d-9261-44ac-baf2-b49dfdd40314")
+		)
+		(pin "9"
+			(uuid "a411b0d5-17a0-4124-82de-cdc6aac7167e")
+		)
+		(pin "18"
+			(uuid "0fde7807-c745-4d87-8b8c-184a03882efc")
+		)
+		(pin "21"
+			(uuid "cd049ac1-a379-4bc6-833d-675a70414b99")
+		)
+		(pin "23"
+			(uuid "d6b5ca48-df27-4dce-a655-a594d86d7097")
+		)
+		(pin "7"
+			(uuid "3326e83e-b99e-430b-b12a-ded531800331")
+		)
+		(pin "24"
+			(uuid "83c25990-2116-4565-86ef-77a18b7b69ea")
+		)
+		(pin "25"
+			(uuid "7d5644c8-e97e-4ea7-b72b-221c34d93af2")
 		)
 		(pin "26"
-			(uuid "1265e990-5742-417f-94d3-bf8ddfe9a44d")
+			(uuid "fc8d2f7d-f86c-4e33-8a6f-8ba74454baaf")
+		)
+		(pin "1"
+			(uuid "c33e0d64-4e73-47bc-8994-1f1b95e9ba31")
 		)
 		(pin "27"
-			(uuid "a19418f7-d08b-4849-b05a-5059e037e5fe")
+			(uuid "929b667e-3242-4088-b1cf-087e974a68e4")
+		)
+		(pin "10"
+			(uuid "40a37dbe-b7a2-421e-b61f-c43cc28efd12")
+		)
+		(pin "19"
+			(uuid "daf9f44e-bb98-45eb-9553-239c1bf28243")
 		)
 		(pin "6"
-			(uuid "92873119-4553-4f27-8e8e-417c3423d8d4")
+			(uuid "d287a626-ab41-4c30-9a5b-8a6738c92551")
+		)
+		(pin "11"
+			(uuid "8f9f2be6-7e3a-4000-a7ac-2e31831846c2")
+		)
+		(pin "12"
+			(uuid "134901db-a525-4a49-8a37-740d5890e882")
+		)
+		(pin "20"
+			(uuid "26e1b042-416f-4292-b9d0-69efe218c559")
 		)
 		(pin "22"
-			(uuid "0b676653-8202-4e22-ace2-8cd2742023c0")
+			(uuid "0ce91925-3614-4026-91a0-0db61ad3801c")
+		)
+		(pin "15"
+			(uuid "6c52dde2-1da5-4f8d-aacb-10e07192e519")
+		)
+		(pin "16"
+			(uuid "bcd1edb6-3981-4973-987f-795de1691876")
+		)
+		(pin "3"
+			(uuid "f3eac18d-bfe6-4a8c-b42c-f8f81070c300")
+		)
+		(pin "14"
+			(uuid "aac80090-2fc1-493d-b2fb-0ffeeb776512")
 		)
 		(instances
 			(project ""
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
 					(reference "U1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Speeduino_Bike_Prototype:core4_rev1")
-		(at 69.85 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed34bed4-5808-4728-865b-bb99f32dd1a1")
-		(property "Reference" "U2"
-			(at 69.215 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "core4_rev1"
-			(at 69.215 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Speeduino_Bike_Prototype:Core4"
-			(at 91.44 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "62"
-			(uuid "57d63418-3408-4975-8d48-e5a41b1d5916")
-		)
-		(pin "55"
-			(uuid "b7c7a52d-b0aa-4d80-b95b-deddc842ea6f")
-		)
-		(pin "60"
-			(uuid "a831f137-82dd-4a14-bf6f-55535300634d")
-		)
-		(pin "53"
-			(uuid "e2795965-4f7f-42f3-8e1d-92d623232d58")
-		)
-		(pin "57"
-			(uuid "0685d46e-7cd6-4e6a-bf78-14fb28f6f183")
-		)
-		(pin "58"
-			(uuid "11cab01a-3892-48b6-b1cf-1716247f5c37")
-		)
-		(pin "56"
-			(uuid "b2d53061-00fa-430f-b0fe-9687a69a5757")
-		)
-		(pin "52"
-			(uuid "f3599089-5aea-428b-993f-54248637718e")
-		)
-		(pin "61"
-			(uuid "69b1d569-030f-408b-8c58-9357ad2bd1e3")
-		)
-		(pin "59"
-			(uuid "d6ed9c3f-71f0-413c-a68f-30f9f59d3d67")
-		)
-		(pin "54"
-			(uuid "d89fa30a-f56c-43e7-8529-22d56fa6a752")
-		)
-		(pin "45"
-			(uuid "2992e31d-1b7a-4d31-a58e-32891765835a")
-		)
-		(pin "20"
-			(uuid "1e0cf730-3302-4e1a-bb9e-af2c82aeacc3")
-		)
-		(pin "10"
-			(uuid "f8b34293-1927-4152-8ddf-99905c97a41d")
-		)
-		(pin "24"
-			(uuid "532facec-592a-4e6b-866d-02fc28ae45e9")
-		)
-		(pin "22"
-			(uuid "864897f0-4341-4cf1-aab9-f2bcc1f17cd7")
-		)
-		(pin "36"
-			(uuid "12c01812-e8f5-4198-bd58-681e682c1125")
-		)
-		(pin "11"
-			(uuid "c09d5f9d-0826-4f31-8b9d-d1e98199769f")
-		)
-		(pin "17"
-			(uuid "cea8d9c9-f59c-415f-b706-4d6c2493d419")
-		)
-		(pin "34"
-			(uuid "dc3fe3d5-47fd-4a8f-a393-1eb556551666")
-		)
-		(pin "28"
-			(uuid "d7c6ffc6-da8f-4bcd-963d-e1bfceb438d8")
-		)
-		(pin "44"
-			(uuid "81a56481-2db0-4e9d-8469-87ead06a4cca")
-		)
-		(pin "46"
-			(uuid "58c1f19e-b61e-4fca-9a98-09bedd7fc9ef")
-		)
-		(pin "31"
-			(uuid "25df8929-0deb-4ac1-8d37-2c330c45ca91")
-		)
-		(pin "27"
-			(uuid "95629dbb-fe25-4293-98e2-37d250ed843d")
-		)
-		(pin "9"
-			(uuid "3188c8fc-6ef8-42f7-8928-9ec4b9123223")
-		)
-		(pin "35"
-			(uuid "393a7ae5-e843-4759-8e26-6afd114c15ad")
-		)
-		(pin "33"
-			(uuid "097e1337-90f1-45a6-be8e-b3ed9e8bbe8c")
-		)
-		(pin "39"
-			(uuid "e54b08ff-2cea-49da-811f-6af4794fd3f7")
-		)
-		(pin "41"
-			(uuid "504d4383-ae7b-4f9b-89dd-54036bd0fecf")
-		)
-		(pin "47"
-			(uuid "ad6dfa1e-a499-4cab-bc6c-1d3d17b2ba63")
-		)
-		(pin "2"
-			(uuid "bb6e882f-ca9d-4314-a185-8c60e98d9c65")
-		)
-		(pin "48"
-			(uuid "d7d85508-3fc5-486a-ad11-1d2643771daa")
-		)
-		(pin "15"
-			(uuid "2c38ca79-0af8-4540-9482-3603ef682e09")
-		)
-		(pin "26"
-			(uuid "eae7d06e-5f4d-4950-862b-e0e96a58a3a1")
-		)
-		(pin "49"
-			(uuid "4a10d938-a7fe-49bd-9e9e-0a70ba19308b")
-		)
-		(pin "50"
-			(uuid "0f360ba7-2752-48a4-96bb-1c37c620dde7")
-		)
-		(pin "3"
-			(uuid "f408e87c-442f-499f-acf9-ea98d540df0b")
-		)
-		(pin "8"
-			(uuid "800f8bc6-b5b2-4576-9b6d-4ddb0829e435")
-		)
-		(pin "51"
-			(uuid "d307e41f-4a72-45f9-af11-79580f5000a9")
-		)
-		(pin "13"
-			(uuid "3abac266-3871-4445-af53-a387a264ff0a")
-		)
-		(pin "12"
-			(uuid "81d4b564-85de-41a3-b675-13b342c51636")
-		)
-		(pin "16"
-			(uuid "5460b357-7b8c-45e8-a213-ba33e229787c")
-		)
-		(pin "38"
-			(uuid "7e7f20ad-334c-4fc8-aac7-26b439f9cacf")
-		)
-		(pin "43"
-			(uuid "4bde85d7-3afd-47a4-a75e-660544f99b6b")
-		)
-		(pin "7"
-			(uuid "1f675767-b58e-41de-9ba6-8f0da27ad585")
-		)
-		(pin "21"
-			(uuid "121b4a8d-9349-49c4-bde3-9bee33621a5f")
-		)
-		(pin "18"
-			(uuid "5731cdb6-3f7d-4369-ba4c-5929d1c1f122")
-		)
-		(pin "23"
-			(uuid "5e74dd99-f531-42ef-941d-2e05cc03f5fd")
-		)
-		(pin "29"
-			(uuid "6668e2db-667b-442c-b77e-b36090baa33f")
-		)
-		(pin "14"
-			(uuid "acaee8a6-0757-4103-9e58-35df864d2ce7")
-		)
-		(pin "19"
-			(uuid "be2492ae-a1f6-45c5-8b1f-28cce04c282a")
-		)
-		(pin "25"
-			(uuid "366487e4-421c-477a-8931-51b13ae11b5d")
-		)
-		(pin "4"
-			(uuid "893795da-ed13-47de-ae49-a11b58ba78e9")
-		)
-		(pin "1"
-			(uuid "fabd5643-647f-43e5-ae25-b5380602a573")
-		)
-		(pin "6"
-			(uuid "1f20e778-faa6-4b7d-af83-67d12ac9fd3b")
-		)
-		(pin "30"
-			(uuid "d2a769ee-e3f4-46e9-b53a-59b92fdf9575")
-		)
-		(pin "32"
-			(uuid "d475e75d-5134-43f7-94b4-2d95c1f4bbec")
-		)
-		(pin "37"
-			(uuid "8b73692c-42ef-402c-8e7e-ed548c6076f3")
-		)
-		(pin "40"
-			(uuid "bf5a9512-e000-4aa8-a79f-30d75d11425e")
-		)
-		(pin "5"
-			(uuid "87f4c55f-cea6-46f9-914f-e931813267e7")
-		)
-		(pin "42"
-			(uuid "1a22fc51-fc69-437a-beb1-77fb799e8e4f")
-		)
-		(instances
-			(project ""
-				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "U2")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -6813,7 +7406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f21cf571-a288-4f89-8488-2d3cc3c09bdc")
-		(property "Reference" "#SYM1"
+		(property "Reference" "#SYM2"
 			(at 29.464 165.1 90)
 			(effects
 				(font
@@ -6861,462 +7454,8 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "#SYM1")
+					(reference "#SYM2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Speeduino_Bike_Prototype:Molex_Conn_48_Male_Black")
-		(at 69.85 40.64 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f364ad24-ab3f-4739-9bb2-16041ef6ac69")
-		(property "Reference" "U1"
-			(at 71.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 71.12 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Speeduino_Bike_Prototype:Molex_CMC_48pin_Male_Black"
-			(at 70.612 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "15"
-			(uuid "6f3c19c8-3336-433c-b7fb-cd2202af5306")
-		)
-		(pin "44"
-			(uuid "3b25f430-e75b-4db8-913f-ed6addd2a6c1")
-		)
-		(pin "34"
-			(uuid "0a35680b-b87e-4178-8802-838b9871e4a5")
-		)
-		(pin "35"
-			(uuid "39519768-b2ac-406e-ab02-29b423f51fb7")
-		)
-		(pin "36"
-			(uuid "9bb7a578-b26f-439a-a2ef-846af5492ce2")
-		)
-		(pin "40"
-			(uuid "81cc4a2b-1448-49c4-b719-df341a4c694d")
-		)
-		(pin "14"
-			(uuid "eebacb5d-1028-4f92-a7c2-c50fba3559be")
-		)
-		(pin "33"
-			(uuid "b25134a4-9e52-433f-a1cd-bd945ae351d1")
-		)
-		(pin "45"
-			(uuid "ed52f22a-a7c7-4117-aaa2-031c66c77998")
-		)
-		(pin "28"
-			(uuid "6a17c4ed-b488-4afc-8bb0-9ffcf473f20f")
-		)
-		(pin "23"
-			(uuid "ee404392-b36b-4b0d-b77c-3447e8d96277")
-		)
-		(pin "11"
-			(uuid "0d97d437-1931-4aab-b678-78c122206cb8")
-		)
-		(pin "29"
-			(uuid "91ddb2f9-7b9e-456a-ad9e-0ec95e9cbead")
-		)
-		(pin "48"
-			(uuid "6526f34c-5544-40e9-bd43-0ec263eae4eb")
-		)
-		(pin "10"
-			(uuid "8ddbadea-73f3-4232-875d-ecbe9e1f9bde")
-		)
-		(pin "19"
-			(uuid "58c3535f-7683-4255-b91b-a235b7490713")
-		)
-		(pin "39"
-			(uuid "9eed4ea3-8d90-40c6-9f80-c8b237b16a14")
-		)
-		(pin "31"
-			(uuid "715adca3-14ec-48c0-bc50-2117024558c9")
-		)
-		(pin "17"
-			(uuid "8f3a6f12-583c-49b7-8ea6-9d899c0a0f91")
-		)
-		(pin "20"
-			(uuid "2e593617-5b70-4cfc-9927-972b167304c6")
-		)
-		(pin "41"
-			(uuid "4dbe5cc4-f42e-4f9c-83d5-53c26012dafe")
-		)
-		(pin "38"
-			(uuid "e3f70589-b458-4409-9f3d-8b1e51d48e1b")
-		)
-		(pin "37"
-			(uuid "612cf499-b6ef-4b98-8acf-a76182feb368")
-		)
-		(pin "21"
-			(uuid "f3af0406-32ab-4dbe-a22e-d1293adaaa5f")
-		)
-		(pin "3"
-			(uuid "30d1e82d-ff07-4538-9d26-055ceb8cce61")
-		)
-		(pin "7"
-			(uuid "8cbcf270-eac1-4011-bf47-772e9333e2ad")
-		)
-		(pin "42"
-			(uuid "e32d2773-0f6a-4315-9cdb-676d10402b1d")
-		)
-		(pin "12"
-			(uuid "e4c3e9db-cc94-4686-ba59-6c6d84a6d6af")
-		)
-		(pin "30"
-			(uuid "20cfc28c-6c3e-441f-a147-327ede85d813")
-		)
-		(pin "16"
-			(uuid "9f4d219a-7d4b-46a1-a107-bb8f6e2d0316")
-		)
-		(pin "32"
-			(uuid "9a124560-4193-4987-bbc7-160354ac30ae")
-		)
-		(pin "46"
-			(uuid "55be60cc-8139-413a-aa7e-00de0cfafb07")
-		)
-		(pin "25"
-			(uuid "f4bfeb54-6646-4113-8fc9-c9f203707b02")
-		)
-		(pin "8"
-			(uuid "38e35b2f-f38a-4d6a-a418-b9b0d4a8c949")
-		)
-		(pin "47"
-			(uuid "20f7f2c1-bb2c-4009-bf8c-ff95d895e380")
-		)
-		(pin "18"
-			(uuid "fbcdf4da-fa82-47a4-b93b-b616d007683e")
-		)
-		(pin "24"
-			(uuid "e44a5599-c07e-4f3e-8cc9-b122b8fd7b51")
-		)
-		(pin "43"
-			(uuid "a6028fb5-431d-4627-9f36-0ad9ff24d049")
-		)
-		(pin "4"
-			(uuid "0de800a9-feeb-47b7-8c9e-968f446fddab")
-		)
-		(pin "9"
-			(uuid "b6d66d3c-e277-4ad6-9db7-2c5c41b9de73")
-		)
-		(pin "1"
-			(uuid "f86ec103-6847-4246-83bc-76440e68c332")
-		)
-		(pin "5"
-			(uuid "1479ec9f-2beb-402e-bb09-5ac0dd665955")
-		)
-		(pin "13"
-			(uuid "f2f72a48-df92-42e9-b13d-704a07d1c0b8")
-		)
-		(pin "2"
-			(uuid "4ac4401f-42d1-4022-aa3f-65869ec70313")
-		)
-		(pin "26"
-			(uuid "1265e990-5742-417f-94d3-bf8ddfe9a44e")
-		)
-		(pin "27"
-			(uuid "a19418f7-d08b-4849-b05a-5059e037e5ff")
-		)
-		(pin "6"
-			(uuid "92873119-4553-4f27-8e8e-417c3423d8d5")
-		)
-		(pin "22"
-			(uuid "0b676653-8202-4e22-ace2-8cd2742023c1")
-		)
-		(instances
-			(project ""
-				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Speeduino_Bike_Prototype:core4_rev1")
-		(at 247.65 101.6 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd287f85-4759-41ff-9dcf-be0c228e77d4")
-		(property "Reference" "U2"
-			(at 247.015 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "core4_rev1"
-			(at 247.015 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Speeduino_Bike_Prototype:Core4"
-			(at 269.24 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "62"
-			(uuid "57d63418-3408-4975-8d48-e5a41b1d5917")
-		)
-		(pin "55"
-			(uuid "b7c7a52d-b0aa-4d80-b95b-deddc842ea70")
-		)
-		(pin "60"
-			(uuid "a831f137-82dd-4a14-bf6f-55535300634e")
-		)
-		(pin "53"
-			(uuid "e2795965-4f7f-42f3-8e1d-92d623232d59")
-		)
-		(pin "57"
-			(uuid "0685d46e-7cd6-4e6a-bf78-14fb28f6f184")
-		)
-		(pin "58"
-			(uuid "11cab01a-3892-48b6-b1cf-1716247f5c38")
-		)
-		(pin "56"
-			(uuid "b2d53061-00fa-430f-b0fe-9687a69a5758")
-		)
-		(pin "52"
-			(uuid "f3599089-5aea-428b-993f-54248637718f")
-		)
-		(pin "61"
-			(uuid "69b1d569-030f-408b-8c58-9357ad2bd1e4")
-		)
-		(pin "59"
-			(uuid "d6ed9c3f-71f0-413c-a68f-30f9f59d3d68")
-		)
-		(pin "54"
-			(uuid "d89fa30a-f56c-43e7-8529-22d56fa6a753")
-		)
-		(pin "45"
-			(uuid "2992e31d-1b7a-4d31-a58e-32891765835b")
-		)
-		(pin "20"
-			(uuid "1e0cf730-3302-4e1a-bb9e-af2c82aeacc4")
-		)
-		(pin "10"
-			(uuid "f8b34293-1927-4152-8ddf-99905c97a41e")
-		)
-		(pin "24"
-			(uuid "532facec-592a-4e6b-866d-02fc28ae45ea")
-		)
-		(pin "22"
-			(uuid "864897f0-4341-4cf1-aab9-f2bcc1f17cd8")
-		)
-		(pin "36"
-			(uuid "12c01812-e8f5-4198-bd58-681e682c1126")
-		)
-		(pin "11"
-			(uuid "c09d5f9d-0826-4f31-8b9d-d1e9819976a0")
-		)
-		(pin "17"
-			(uuid "cea8d9c9-f59c-415f-b706-4d6c2493d41a")
-		)
-		(pin "34"
-			(uuid "dc3fe3d5-47fd-4a8f-a393-1eb556551667")
-		)
-		(pin "28"
-			(uuid "d7c6ffc6-da8f-4bcd-963d-e1bfceb438d9")
-		)
-		(pin "44"
-			(uuid "81a56481-2db0-4e9d-8469-87ead06a4ccb")
-		)
-		(pin "46"
-			(uuid "58c1f19e-b61e-4fca-9a98-09bedd7fc9f0")
-		)
-		(pin "31"
-			(uuid "25df8929-0deb-4ac1-8d37-2c330c45ca92")
-		)
-		(pin "27"
-			(uuid "95629dbb-fe25-4293-98e2-37d250ed843e")
-		)
-		(pin "9"
-			(uuid "3188c8fc-6ef8-42f7-8928-9ec4b9123224")
-		)
-		(pin "35"
-			(uuid "393a7ae5-e843-4759-8e26-6afd114c15ae")
-		)
-		(pin "33"
-			(uuid "097e1337-90f1-45a6-be8e-b3ed9e8bbe8d")
-		)
-		(pin "39"
-			(uuid "e54b08ff-2cea-49da-811f-6af4794fd3f8")
-		)
-		(pin "41"
-			(uuid "504d4383-ae7b-4f9b-89dd-54036bd0fed0")
-		)
-		(pin "47"
-			(uuid "ad6dfa1e-a499-4cab-bc6c-1d3d17b2ba64")
-		)
-		(pin "2"
-			(uuid "bb6e882f-ca9d-4314-a185-8c60e98d9c66")
-		)
-		(pin "48"
-			(uuid "d7d85508-3fc5-486a-ad11-1d2643771dab")
-		)
-		(pin "15"
-			(uuid "2c38ca79-0af8-4540-9482-3603ef682e0a")
-		)
-		(pin "26"
-			(uuid "eae7d06e-5f4d-4950-862b-e0e96a58a3a2")
-		)
-		(pin "49"
-			(uuid "4a10d938-a7fe-49bd-9e9e-0a70ba19308c")
-		)
-		(pin "50"
-			(uuid "0f360ba7-2752-48a4-96bb-1c37c620dde8")
-		)
-		(pin "3"
-			(uuid "f408e87c-442f-499f-acf9-ea98d540df0c")
-		)
-		(pin "8"
-			(uuid "800f8bc6-b5b2-4576-9b6d-4ddb0829e436")
-		)
-		(pin "51"
-			(uuid "d307e41f-4a72-45f9-af11-79580f5000aa")
-		)
-		(pin "13"
-			(uuid "3abac266-3871-4445-af53-a387a264ff0b")
-		)
-		(pin "12"
-			(uuid "81d4b564-85de-41a3-b675-13b342c51637")
-		)
-		(pin "16"
-			(uuid "5460b357-7b8c-45e8-a213-ba33e229787d")
-		)
-		(pin "38"
-			(uuid "7e7f20ad-334c-4fc8-aac7-26b439f9cad0")
-		)
-		(pin "43"
-			(uuid "4bde85d7-3afd-47a4-a75e-660544f99b6c")
-		)
-		(pin "7"
-			(uuid "1f675767-b58e-41de-9ba6-8f0da27ad586")
-		)
-		(pin "21"
-			(uuid "121b4a8d-9349-49c4-bde3-9bee33621a60")
-		)
-		(pin "18"
-			(uuid "5731cdb6-3f7d-4369-ba4c-5929d1c1f123")
-		)
-		(pin "23"
-			(uuid "5e74dd99-f531-42ef-941d-2e05cc03f5fe")
-		)
-		(pin "29"
-			(uuid "6668e2db-667b-442c-b77e-b36090baa340")
-		)
-		(pin "14"
-			(uuid "acaee8a6-0757-4103-9e58-35df864d2ce8")
-		)
-		(pin "19"
-			(uuid "be2492ae-a1f6-45c5-8b1f-28cce04c282b")
-		)
-		(pin "25"
-			(uuid "366487e4-421c-477a-8931-51b13ae11b5e")
-		)
-		(pin "4"
-			(uuid "893795da-ed13-47de-ae49-a11b58ba78ea")
-		)
-		(pin "1"
-			(uuid "fabd5643-647f-43e5-ae25-b5380602a574")
-		)
-		(pin "6"
-			(uuid "1f20e778-faa6-4b7d-af83-67d12ac9fd3c")
-		)
-		(pin "30"
-			(uuid "d2a769ee-e3f4-46e9-b53a-59b92fdf9576")
-		)
-		(pin "32"
-			(uuid "d475e75d-5134-43f7-94b4-2d95c1f4bbed")
-		)
-		(pin "37"
-			(uuid "8b73692c-42ef-402c-8e7e-ed548c6076f4")
-		)
-		(pin "40"
-			(uuid "bf5a9512-e000-4aa8-a79f-30d75d11425f")
-		)
-		(pin "5"
-			(uuid "87f4c55f-cea6-46f9-914f-e931813267e8")
-		)
-		(pin "42"
-			(uuid "1a22fc51-fc69-437a-beb1-77fb799e8e50")
-		)
-		(instances
-			(project ""
-				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "U2")
-					(unit 3)
 				)
 			)
 		)
@@ -7331,7 +7470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd730d6d-d7e0-4319-8ae5-bac5a8a56797")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 227.33 44.45 0)
 			(effects
 				(font
@@ -7382,7 +7521,7 @@
 		(instances
 			(project "Core4GPZ_rev0-1"
 				(path "/ac28f42d-34b3-4fcc-84dd-ab6106f99610"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
